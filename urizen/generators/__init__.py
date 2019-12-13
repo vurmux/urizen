@@ -9,3 +9,6 @@ from urizen.generators.sprites import *
 
 import urizen.generators.worlds
 from urizen.generators.worlds import *
+
+import urizen.generators.basic_generator
+from urizen.generators.basic_generator import *
