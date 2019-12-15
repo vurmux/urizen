@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-class BasicGenerator(object):
+class BasicGeneratorFactory(object):
     def __init__(self):
         pass
     

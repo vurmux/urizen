@@ -16,7 +16,7 @@ class Cell(object):
     """
 
     def __init__(self, x, y, z=0, height=0, terrain=None, cell_type=None, objects=[], symbol='.',
-            bg_color=None, fg_color=None, sprite=None, passable=False):
+            bg_color='#000000', fg_color='#FFFFFF', sprite=None, passable=False):
         self.x = x
         self.y = y
         self.z = z
