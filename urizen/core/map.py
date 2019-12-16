@@ -11,11 +11,14 @@ class Map(object):
     w -- Map width
     h -- Map height
     cells -- Cell matrix
+    fill_symbol -- Symbol to fill initial cell matrix
+    tags -- Map tags
     """
 
-    def __init__(self, w, h, fill_symbol = '.'):
+    def __init__(self, w, h, fill_symbol = '.', tags=[]):
         self.w = w
         self.h = h
+        self.tags = tags
         self.cells = [[Cell(x, y, symbol=fill_symbol) for x in range(w)] for y in range(h)]
     
     def get_size(self):

@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import random
-from urizen.generators.basic_generator import BasicGeneratorFactory
 from urizen.core.map import Map
 
 
@@ -11,10 +10,12 @@ EAST = 'E'
 WEST = 'W'
 
 
-class LFD_WormSimpleFactory(BasicGeneratorFactory):
+class LFD_WormSimpleFactory(object):
 
-    def generate(self, w, h):
-        return self._gen_main(w, h, int(w*h/3))
+    def generate(self, w, h, length=None, turn_chance=0.4):
+        if not length:
+            length = int(w*h/2)
+        return self._gen_main(w, h, length, turn_chance)
 
     def _gen_main(self, xsize, ysize, length, turn_chance=0.4):
         M = Map(xsize, ysize, fill_symbol='#')
@@ -32,8 +33,7 @@ class LFD_WormSimpleFactory(BasicGeneratorFactory):
         if random.random() > turn_chance:
             move = random.choice([NORTH, SOUTH, EAST, WEST])
 
-        xsize = len(M.cells[0])
-        ysize = len(M.cells)
+        xsize, ysize = M.get_size()
         if x == xsize - 2 and move == EAST:
             move = WEST
         elif x == 1 and move == WEST:
