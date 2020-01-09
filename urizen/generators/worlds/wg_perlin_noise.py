@@ -44,27 +44,32 @@ class WG_PerlinNoiseFactory(object):
                     M.cells[y][x].symbol = '~'
                     M.cells[y][x].fg_color = '#000000'
                     M.cells[y][x].bg_color = '#0000FF'
-
+                    M.cells[y][x].pixel_color = '#000088'
                 elif M.cells[y][x].noise < min_value + 5*delta:
                     # Water
                     M.cells[y][x].symbol = '~'
                     M.cells[y][x].fg_color = '#0000FF'
+                    M.cells[y][x].pixel_color = '#0000FF'
                 elif M.cells[y][x].noise < min_value + 8*delta:
                     # Grass
                     M.cells[y][x].symbol = '"'
                     M.cells[y][x].fg_color = '#00FF00'
+                    M.cells[y][x].pixel_color = '#00FF00'
                 elif M.cells[y][x].noise < min_value + 10*delta:
                     # Forest
                     M.cells[y][x].symbol = 'T'
                     M.cells[y][x].fg_color = '#00FF00'
+                    M.cells[y][x].pixel_color = '#008800'
                 elif M.cells[y][x].noise < min_value + 12*delta:
                     # Mountain
                     M.cells[y][x].symbol = '^'
                     M.cells[y][x].fg_color = '#FFFFFF'
+                    M.cells[y][x].pixel_color = '#888888'
                 else:
                     # Super mountain
                     M.cells[y][x].symbol = '^'
                     M.cells[y][x].fg_color = '#FF0000'
+                    M.cells[y][x].pixel_color = '#FFFFFF'
         
         return M
 
