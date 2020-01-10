@@ -1,5 +1,5 @@
-import urizen.visualizers.term_colorama
-from urizen.visualizers.term_colorama import *
+import urizen.visualizers.vt_colorama
+from urizen.visualizers.vt_colorama import vt_colorama
 
-import urizen.visualizers.pic_pixelated
-from urizen.visualizers.pic_pixelated import *
+import urizen.visualizers.vg_pillow
+from urizen.visualizers.vg_pillow import vg_pillow_pixelated
