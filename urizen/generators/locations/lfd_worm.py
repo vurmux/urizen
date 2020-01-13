@@ -2,7 +2,7 @@
 
 import random
 from urizen.core.map import Map
-from urizen.core.cell_library import cell_dungeon_wall, cell_dungeon_floor
+from urizen.core.cell_collection import cell_dungeon_wall, cell_dungeon_floor
 
 
 NORTH = 'N'

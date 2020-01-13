@@ -3,7 +3,7 @@
 import random
 import noise
 from urizen.core.map import Map
-from urizen.core.cell_library import (
+from urizen.core.cell_collection import (
     cell_terrain_deep_water,
     cell_terrain_water,
     cell_terrain_grassland,

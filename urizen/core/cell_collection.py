@@ -2,7 +2,6 @@
 
 from urizen.core.cell import Cell
 
-
 # Dungeon cells
 
 cell_void = type('cell_void', (Cell,), {
@@ -51,7 +50,7 @@ cell_dungeon_closed_door = type('cell_dungeon_closed_door', (Cell,), {
     'symbol': '+',
     'bg_color': '#000000',
     'fg_color': '#FFFFFF',
-    'pixel_color': '#909090',
+    'pixel_color': '#905000',
     'sprite': None,
     'passable': False,
     'tags': []
@@ -64,7 +63,7 @@ cell_dungeon_open_door = type('cell_dungeon_open_door', (Cell,), {
     'symbol': '\'',
     'bg_color': '#000000',
     'fg_color': '#FFFFFF',
-    'pixel_color': '#909090',
+    'pixel_color': '#905000',
     'sprite': None,
     'passable': True,
     'tags': []
