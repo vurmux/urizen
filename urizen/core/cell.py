@@ -12,6 +12,7 @@ class Cell(object):
     height -- Cell height
     terrain -- Cell terrain
     cell_type -- Cell type
+    features -- List of features of the cell
     objects -- List of objects inside the cell
     symbol -- Symbol to print in terminal visualizers
     bg_color -- Background color in terminal visualizers
@@ -22,19 +23,23 @@ class Cell(object):
     tags -- List of cell tags
     """
 
-    def __init__(self, x, y, z=0, height=0, terrain=None, cell_type=None, objects=[], symbol='.',
-            bg_color='#000000', fg_color='#FFFFFF', pixel_color='#000000', sprite=None, passable=False, tags=[]):
+    height = 0
+    terrain = None
+    cell_type = None
+    features = []
+    objects = []
+    symbol = '.'
+    bg_color = '#000000'
+    fg_color = '#FFFFFF'
+    pixel_color = '#000000'
+    sprite = None
+    passable = False
+    tags = []
+
+    def __init__(self, x, y, z=0, **kwargs):
         self.x = x
         self.y = y
         self.z = z
-        self.height = height
-        self.terrain = terrain
-        self.cell_type = cell_type
-        self.objects = objects
-        self.symbol = symbol
-        self.bg_color = bg_color
-        self.fg_color = fg_color
-        self.pixel_color = pixel_color
-        self.sprite = sprite
-        self.passable = passable
-        self.tags = tags
+        for arg, value in kwargs.items():
+            if arg in Cell.__dict__ and not arg.startswith('__'):
+                self.__dict__[arg] = value

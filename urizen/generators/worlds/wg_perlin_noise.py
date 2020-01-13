@@ -3,6 +3,14 @@
 import random
 import noise
 from urizen.core.map import Map
+from urizen.core.cell_library import (
+    cell_terrain_deep_water,
+    cell_terrain_water,
+    cell_terrain_grassland,
+    cell_terrain_forest,
+    cell_terrain_mountain,
+    cell_terrain_pinnacle
+)
 
 
 def wg_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
@@ -38,35 +46,16 @@ def wg_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0
     for y, line in enumerate(M.cells):
         for x, C in enumerate(line):
             if M.cells[y][x].noise < min_value + delta:
-                # Deep water
-                M.cells[y][x].symbol = '~'
-                M.cells[y][x].fg_color = '#000000'
-                M.cells[y][x].bg_color = '#0000FF'
-                M.cells[y][x].pixel_color = '#000088'
+                M.cells[y][x] = cell_terrain_deep_water(x, y)
             elif M.cells[y][x].noise < min_value + 5*delta:
-                # Water
-                M.cells[y][x].symbol = '~'
-                M.cells[y][x].fg_color = '#0000FF'
-                M.cells[y][x].pixel_color = '#0000FF'
+                M.cells[y][x] = cell_terrain_water(x, y)
             elif M.cells[y][x].noise < min_value + 8*delta:
-                # Grass
-                M.cells[y][x].symbol = '"'
-                M.cells[y][x].fg_color = '#00FF00'
-                M.cells[y][x].pixel_color = '#00FF00'
+                M.cells[y][x] = cell_terrain_grassland(x, y)
             elif M.cells[y][x].noise < min_value + 10*delta:
-                # Forest
-                M.cells[y][x].symbol = 'T'
-                M.cells[y][x].fg_color = '#00FF00'
-                M.cells[y][x].pixel_color = '#008800'
+                M.cells[y][x] = cell_terrain_forest(x, y)
             elif M.cells[y][x].noise < min_value + 12*delta:
-                # Mountain
-                M.cells[y][x].symbol = '^'
-                M.cells[y][x].fg_color = '#FFFFFF'
-                M.cells[y][x].pixel_color = '#888888'
+                M.cells[y][x] = cell_terrain_mountain(x, y)
             else:
-                # Super mountain
-                M.cells[y][x].symbol = '^'
-                M.cells[y][x].fg_color = '#FF0000'
-                M.cells[y][x].pixel_color = '#FFFFFF'
+                M.cells[y][x] = cell_terrain_pinnacle(x, y)
     
     return M

@@ -3,3 +3,6 @@ from urizen.core.cell import *
 
 import urizen.core.map
 from urizen.core.map import *
+
+import urizen.core.cell_library
+from urizen.core.cell_library import *

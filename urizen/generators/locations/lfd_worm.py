@@ -2,6 +2,7 @@
 
 import random
 from urizen.core.map import Map
+from urizen.core.cell_library import cell_dungeon_wall, cell_dungeon_floor
 
 
 NORTH = 'N'
@@ -11,15 +12,14 @@ WEST = 'W'
 
 
 def lfd_worm_simple(w, h, length=None, turn_chance=0.4):
-    M = Map(w, h, fill_symbol='#')
+    M = Map(w, h, fill_cell=cell_dungeon_wall)
     if not length:
         length = int(w*h/2)
     worm_x = random.randint(int(w * 0.3), int(w * 0.6))
     worm_y = random.randint(int(h * 0.3), int(h * 0.6))
     move = random.choice([NORTH, SOUTH, EAST, WEST])
     for _ in range(length):
-        M.cells[worm_y][worm_x].symbol = '.'
-        M.cells[worm_y][worm_x].pixel_color = '#FFFFFF'
+        M.cells[worm_y][worm_x] = cell_dungeon_floor(worm_x, worm_y)
         worm_x, worm_y, move = _move_worm(M, worm_x, worm_y, move, turn_chance)
 
     return M

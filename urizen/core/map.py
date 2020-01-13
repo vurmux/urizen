@@ -15,11 +15,11 @@ class Map(object):
     tags -- Map tags
     """
 
-    def __init__(self, w, h, fill_symbol = '.', tags=[]):
+    def __init__(self, w, h, fill_cell=Cell, tags=[]):
         self.w = w
         self.h = h
         self.tags = tags
-        self.cells = [[Cell(x, y, symbol=fill_symbol) for x in range(w)] for y in range(h)]
+        self.cells = [[fill_cell(x, y) for x in range(w)] for y in range(h)]
     
     def get_size(self):
         return self.w, self.h
