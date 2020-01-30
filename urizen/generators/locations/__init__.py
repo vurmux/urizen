@@ -3,3 +3,6 @@ from urizen.generators.locations.lfd_worm import lfd_worm_simple
 
 import urizen.generators.locations.lgd_grid
 from urizen.generators.locations.lgd_grid import lgd_grid_simple
+
+import urizen.generators.locations.lgd_bsp_tree
+from urizen.generators.locations.lgd_bsp_tree import lgd_bsp_tree
