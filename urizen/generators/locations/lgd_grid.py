@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 from urizen.core.map import Map
 from urizen.core.cell_collection import (
@@ -8,16 +10,20 @@ from urizen.core.cell_collection import (
 )
 
 
-def lgd_grid_simple(w, h, room_size=4):
+def lgd_grid_simple(w, h, room_size=4, delete_chance=0.33):
+    """Dungeon map generator based on square room grid."""
+
     M = Map(w, h, fill_cell=cell_dungeon_floor)
     _create_room_grid(M, room_size=room_size)
-    _create_door(M, room_size=room_size)
-    _crush_walls(M, room_size=room_size)
-    _delete_walls(M)
+    _create_doors(M, room_size=room_size)
+    _crush_walls(M, room_size=room_size, delete_chance=delete_chance)
+    _clear_wall_points(M)
     return M
 
 
 def _create_room_grid(M, room_size):
+    """Create room grid and clear all cells that are out of the grid."""
+
     w, h = M.get_size()
     x_border_index = ((w - 1) // (room_size + 1)) * (room_size + 1)
     y_border_index = ((h - 1) // (room_size + 1)) * (room_size + 1)
@@ -28,7 +34,9 @@ def _create_room_grid(M, room_size):
             elif x % (room_size + 1) == 0 or y % (room_size + 1) == 0:
                 M.cells[y][x] = cell_dungeon_wall(x, y)
 
-def _create_door(M, room_size):
+def _create_doors(M, room_size):
+    """Create door in every wall that connects two rooms."""
+
     w, h = M.get_size()
     x_rooms = ((w - 1) // (room_size + 1))
     y_rooms = ((h - 1) // (room_size + 1))
@@ -44,25 +52,24 @@ def _create_door(M, room_size):
                 M.cells[y][x] = cell_dungeon_closed_door(x, y)
             y = i * (room_size + 1)
             x = j * (room_size + 1) + random.randint(1, room_size)
-            M.cells[y][x] = cell_dungeon_closed_door(x, y)
+            M.cells[y][x] = cell_dungeon_closed_door(x, y) 
             y = i * (room_size + 1) + random.randint(1, room_size)
             x = j * (room_size + 1)
             M.cells[y][x] = cell_dungeon_closed_door(x, y)
 
-def _crush_walls(M, room_size):
+def _crush_walls(M, room_size, delete_chance):
+    """Randomly remove walls with delete_chance."""
+
     w, h = M.get_size()
     x_rooms = ((w - 1) // (room_size + 1))
     y_rooms = ((h - 1) // (room_size + 1))
-    delete_chance = 0.33
     for i in range(1, y_rooms):
         for j in range(1, x_rooms):
             y = i * (room_size + 1)
             x = j * (room_size + 1) + 1
             chance = random.random()
-            z = 0
             if chance < delete_chance:
-                while z < room_size:
-                    z += 1
+                for _ in range(room_size):
                     M.cells[y][x] = cell_dungeon_floor(x, y)
                     x += 1
     for i in range(1, y_rooms):
@@ -70,14 +77,14 @@ def _crush_walls(M, room_size):
             y = i * (room_size + 1) +1
             x = j * (room_size + 1)
             chance = random.random()
-            z = 0
             if chance < delete_chance:
-                while z < room_size:
-                    z += 1
+                for _ in range(room_size):
                     M.cells[y][x] = cell_dungeon_floor(x, y)
                     y += 1
 
-def _delete_walls(M):
+def _clear_wall_points(M):
+    """Convert all single wall cells to floor."""
+
     for j, line in enumerate(M.cells[1: -1]):
         for i, C in enumerate(line[1: -1]):
             x = i + 1
