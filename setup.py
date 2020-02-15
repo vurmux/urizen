@@ -19,7 +19,11 @@ setup(
     ],
     keywords='',
     packages=find_packages(exclude=['docs', 'img']),
-    install_requires=[],
+    install_requires=[
+        'noise',
+        'colorama',
+        'Pillow'
+    ],
     extras_require={
         'dev': [],
         'test': ['coverage'],
