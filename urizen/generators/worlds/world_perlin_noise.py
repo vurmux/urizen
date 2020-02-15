@@ -13,7 +13,7 @@ from urizen.core.cell_collection import (
 )
 
 
-def wg_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
+def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
     M = Map(w, h)
     min_value = None
     max_value = None

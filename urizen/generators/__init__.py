@@ -1,5 +1,5 @@
-import urizen.generators.locations
-from urizen.generators.locations import *
+import urizen.generators.dungeons
+from urizen.generators.dungeons import *
 
 import urizen.generators.regions
 from urizen.generators.regions import *

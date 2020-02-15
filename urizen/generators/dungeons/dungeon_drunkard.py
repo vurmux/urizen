@@ -11,7 +11,7 @@ EAST = 'E'
 WEST = 'W'
 
 
-def lfd_worm_simple(w, h, length=None, turn_chance=0.4):
+def dungeon_drunkard(w, h, length=None, turn_chance=0.4):
     M = Map(w, h, fill_cell=cell_dungeon_wall)
     if not length:
         length = int(w*h/2)

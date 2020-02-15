@@ -10,7 +10,7 @@ from urizen.core.cell_collection import (
 )
 
 
-def lgd_grid_simple(w, h, room_size=4, delete_chance=0.33):
+def dungeon_grid_simple(w, h, room_size=4, delete_chance=0.33):
     """Dungeon map generator based on square room grid."""
 
     M = Map(w, h, fill_cell=cell_dungeon_floor)
