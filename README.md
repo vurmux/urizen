@@ -13,13 +13,25 @@
 - Easy-to-use map objects with no need of additional libraries.
 - Modular architecture that allows simple extension.
 
+## Examples
+
+Here is some example maps that Urizen can generate:
+
+<img src="https://github.com/vurmux/urizen/blob/master/res/examples.png" align="center">
+
 ---
 
 ## Quick Start
 
 ### Installation
 
-First, clone this repository:
+Urizen can be installed with pip:
+
+```
+$ pip3 install --user urizen
+```
+
+Or manually. To do it, clone this repository:
 
 ```
 $ git clone https://github.com/vurmux/urizen.git
@@ -45,7 +57,7 @@ import urizen as uz
 Create a 50x50 size map using BSP algorithm:
 
 ```python
-M = uz.lgd_bsp_tree(50, 50)
+M = uz.dungeon_bsp_tree(50, 50)
 ```
 
 And visualize it using Pillow:
@@ -54,3 +66,4 @@ And visualize it using Pillow:
 uz.vg_pillow_pixelated(M, scale=5)
 ```
 
+The result image will be automatically opened with a default image viewer.
