@@ -5,8 +5,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='urizen',
-    version='0.0.1',
-    description='World generation library',
+    version='0.0.2',
+    description='Roguelike dungeon generation library',
     long_description='',
     url='https://github.com/vurmux/urizen',
     author='Andrey Voronov',
@@ -18,7 +18,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     keywords='',
-    packages=find_packages(exclude=['docs', 'img']),
+    packages=find_packages(exclude=['doc', 'res']),
     install_requires=[
         'noise',
         'colorama',
