@@ -23,9 +23,14 @@ Simple example
 
 .. code:: python
 
-    import urizen as uz  # Import this library
-    M = uz.dungeon_bsp_tree(50, 50)  # Create a 50x50 size map using BSP algorithm
-    uz.vg_pillow_pixelated(M, scale=5)  # And visualize it using Pillow
+    # Import this library
+    import urizen as uz
+
+    # Create a 50x50 size map using BSP algorithm
+    M = uz.dungeon_bsp_tree(50, 50)
+
+    # And visualize it using Pillow
+    uz.vg_pillow_pixelated(M, scale=5)
 
 
 The result image will be automatically opened with a default image viewer.
@@ -33,7 +38,7 @@ The result image will be automatically opened with a default image viewer.
 
 setup(
     name='urizen',
-    version='0.0.2b',
+    version='0.0.3',
     description='Roguelike dungeon generation library',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/vurmux/urizen',
