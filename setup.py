@@ -3,11 +3,39 @@
 from setuptools import setup, find_packages
 
 
+LONG_DESCRIPTION = """
+Urizen
+======
+
+Urizen is the roguelike dungeon generation library written on Python3. It has various algorithms that can be used to generate maps on scale of single rooms to the whole world.
+
+**Note: This project is on early stage of development. It can contain bugs, API breaking changes and lack of documentation.**
+
+Features
+--------
+
+- Two main collections - generators and visualizers - that can be used in any variations.
+- Easy-to-use map objects with no need of additional libraries.
+- Modular architecture that allows simple extension.
+
+Simple example
+--------------
+
+.. code:: python
+
+    import urizen as uz  # Import this library
+    M = uz.dungeon_bsp_tree(50, 50)  # Create a 50x50 size map using BSP algorithm
+    uz.vg_pillow_pixelated(M, scale=5)  # And visualize it using Pillow
+
+
+The result image will be automatically opened with a default image viewer.
+"""
+
 setup(
     name='urizen',
-    version='0.0.2',
+    version='0.0.2b',
     description='Roguelike dungeon generation library',
-    long_description='',
+    long_description=LONG_DESCRIPTION,
     url='https://github.com/vurmux/urizen',
     author='Andrey Voronov',
     author_email='vurmux@gmail.com',
@@ -26,7 +54,7 @@ setup(
     ],
     extras_require={
         'dev': [],
-        'test': ['coverage'],
+        'test': [],
     },
     package_data={},
     entry_points={},
