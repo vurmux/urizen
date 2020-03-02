@@ -13,7 +13,7 @@ class Cell(object):
     terrain -- Cell terrain
     cell_type -- Cell type
     features -- List of features of the cell
-    objects -- List of objects inside the cell
+    things -- List of things inside the cell
     symbol -- Symbol to print in terminal visualizers
     bg_color -- Background color in terminal visualizers
     fg_color -- Foreground color in terminal visualizers
@@ -27,7 +27,7 @@ class Cell(object):
     terrain = None
     cell_type = None
     features = []
-    objects = []
+    things = []
     symbol = '.'
     bg_color = '#000000'
     fg_color = '#FFFFFF'
