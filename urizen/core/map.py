@@ -23,3 +23,21 @@ class Map(object):
     
     def get_size(self):
         return self.w, self.h
+    
+    def __getitem__(self, pos):
+        x, y = pos
+        return self.cells[y][x]
+
+    def __setitem__(self, pos, item):
+        x, y = pos
+        self.cells[y][x] = item
+    
+    def meld(self, other, x, y):
+        ow, oh = other.get_size()
+        if x + ow > self.w:
+            raise IndexError('Melded map weigth is too big: {} + {} > {}'.format(x, ow, self.w))
+        if y + oh > self.h:
+            raise IndexError('Melded map height is too big: {} + {} > {}'.format(y, oh, self.h))
+        for oy in range(oh):
+            for ox in range(ow):
+                self[x+ox, y+oy] = other[ox, oy]
