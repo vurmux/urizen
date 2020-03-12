@@ -26,8 +26,6 @@ class Cell(object):
     height = 0
     terrain = None
     cell_type = None
-    features = []
-    things = []
     symbol = '.'
     bg_color = '#000000'
     fg_color = '#FFFFFF'
@@ -40,6 +38,8 @@ class Cell(object):
         self.x = x
         self.y = y
         self.z = z
+        self.features = []
+        self.things = []
         for arg, value in kwargs.items():
             if arg in Cell.__dict__ and not arg.startswith('__'):
                 self.__dict__[arg] = value
