@@ -10,3 +10,5 @@ from urizen.generators.sprites import *
 import urizen.generators.worlds
 from urizen.generators.worlds import *
 
+import urizen.generators.rooms
+from urizen.generators.rooms import *
