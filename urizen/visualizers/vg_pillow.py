@@ -9,7 +9,10 @@ def vg_pillow_pixelated(M, scale=1, show=True, filepath=None):
     im = Image.new('RGB', (w, h))
     for line in M.cells:
         for cell in line:
-            pixels.append(ImageColor.getrgb(cell.pixel_color))
+            if not len(cell.things):
+                pixels.append(ImageColor.getrgb(cell.pixel_color))
+            else:
+                pixels.append(ImageColor.getrgb(cell.things[0].pixel_color))
     im.putdata(pixels)
     im = im.resize((w*scale, h*scale), resample=Image.NEAREST)
     if filepath:
