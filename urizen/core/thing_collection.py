@@ -24,7 +24,7 @@ furniture_hearth = type('furniture_hearth', (Thing,), {
     'symbol': '#',
     'bg_color': '#000000',
     'fg_color': '#FF0000',
-    'pixel_color': '#B06000',
+    'pixel_color': '#FF0000',
     'sprite': None,
     'passable': False,
     'tags': []
@@ -71,5 +71,40 @@ furniture_bookcase = type('furniture_bookcase', (Thing,), {
     'pixel_color': '#FFEED0',
     'sprite': None,
     'passable': False,
+    'tags': []
+})
+
+furniture_manger = type('furniture_manger', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': '=',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#906000',
+    'sprite': None,
+    'passable': False,
+    'tags': []
+})
+
+furniture_bed = type('furniture_bed', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': '_',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#B06000',
+    'sprite': None,
+    'passable': False,
+    'tags': []
+})
+
+# Other
+
+other_bonfire = type('other_bonfire', (Thing,), {
+    'thing_type': 'item',
+    'symbol': ',',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#FF0000',
+    'sprite': None,
+    'passable': True,
     'tags': []
 })
