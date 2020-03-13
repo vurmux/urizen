@@ -79,7 +79,18 @@ furniture_manger = type('furniture_manger', (Thing,), {
     'symbol': '=',
     'bg_color': '#000000',
     'fg_color': '#FF0000',
-    'pixel_color': '#906000',
+    'pixel_color': '#C3C300',
+    'sprite': None,
+    'passable': False,
+    'tags': []
+})
+
+furniture_watertrough = type('furniture_watertrough', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': '=',
+    'bg_color': '#000000',
+    'fg_color': '#0000FF',
+    'pixel_color': '#0000CF',
     'sprite': None,
     'passable': False,
     'tags': []
