@@ -41,3 +41,7 @@ class Map(object):
         for oy in range(oh):
             for ox in range(ow):
                 self[x+ox, y+oy] = other[ox, oy]
+    
+    def transpose(self):
+        self.w, self.h = self.h, self.w
+        self.cells = list(zip(*self.cells))
