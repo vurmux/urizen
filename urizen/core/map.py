@@ -45,3 +45,10 @@ class Map(object):
     def transpose(self):
         self.w, self.h = self.h, self.w
         self.cells = list(zip(*self.cells))
+
+    def hmirror(self):
+        for line in self.cells:
+            line.reverse()
+    
+    def vmirror(self):
+        self.cells.reverse()
