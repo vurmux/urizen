@@ -17,6 +17,61 @@ item_skull = type('item_skull', (Thing,), {
     'tags': []
 })
 
+item_candle = type('item_candle', (Thing,), {
+    'thing_type': 'item',
+    'symbol': 'L',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#FF0000',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+item_bones = type('item_bones', (Thing,), {
+    'thing_type': 'item',
+    'symbol': 'I',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#FFFFF0',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+item_bucket = type('item_bucket', (Thing,), {
+    'thing_type': 'item',
+    'symbol': 'U',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#191010',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+item_spider_web = type('item_spider_web', (Thing,), {
+    'thing_type': 'item',
+    'symbol': 'O',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#514949',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+item_pliers = type('item_pliers', (Thing,), {
+    'thing_type': 'item',
+    'symbol': ':',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#514949',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
 # Furniture
 
 furniture_hearth = type('furniture_hearth', (Thing,), {
@@ -59,7 +114,18 @@ furniture_chair = type('furniture_chair', (Thing,), {
     'fg_color': '#FF0000',
     'pixel_color': '#905000',
     'sprite': None,
-    'passable': False,
+    'passable': True,
+    'tags': []
+})
+
+furniture_torture_chair = type('furniture_torture_chair', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': 'X',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#905000',
+    'sprite': None,
+    'passable': True,
     'tags': []
 })
 
@@ -103,6 +169,39 @@ furniture_bed = type('furniture_bed', (Thing,), {
     'fg_color': '#FF0000',
     'pixel_color': '#B06000',
     'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+furniture_sleeping_bag = type('furniture_sleeping_bag', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': '_',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#B06000',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+furniture_chest = type('furniture_chest', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': 'Q',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#300238',
+    'sprite': None,
+    'passable': False,
+    'tags': []
+})
+
+furniture_wardrobe = type('furniture_wardrobe', (Thing,), {
+    'thing_type': 'furniture',
+    'symbol': 'W',
+    'bg_color': '#000000',
+    'fg_color': '#FF0000',
+    'pixel_color': '#291010',
+    'sprite': None,
     'passable': False,
     'tags': []
 })
@@ -114,7 +213,7 @@ other_bonfire = type('other_bonfire', (Thing,), {
     'symbol': ',',
     'bg_color': '#000000',
     'fg_color': '#FFFFFF',
-    'pixel_color': '#FF0000',
+    'pixel_color': '#761600',
     'sprite': None,
     'passable': True,
     'tags': []

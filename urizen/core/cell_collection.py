@@ -69,6 +69,45 @@ cell_dungeon_open_door = type('cell_dungeon_open_door', (Cell,), {
     'tags': []
 })
 
+cell_dungeon_stairs_down = type('cell_dungeon_stairs_down', (Cell,), {
+    'height': 1,
+    'terrain': 'dungeon',
+    'cell_type': 'stairs',
+    'symbol': '>',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#257764',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+cell_dungeon_stairs_up = type('cell_dungeon_stairs_up', (Cell,), {
+    'height': 1,
+    'terrain': 'dungeon',
+    'cell_type': 'stairs',
+    'symbol': '<',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#257764',
+    'sprite': None,
+    'passable': True,
+    'tags': []
+})
+
+cell_building_prison_bars = type('cell_building_prison_bars', (Cell,), {
+    'height': 1,
+    'terrain': 'building',
+    'cell_type': 'wall',
+    'symbol': '#',
+    'bg_color': '#000000',
+    'fg_color': '#FFFFFF',
+    'pixel_color': '#BBBBBB',
+    'sprite': None,
+    'passable': False,
+    'tags': []
+})
+
 
 # World terrain cells
 
