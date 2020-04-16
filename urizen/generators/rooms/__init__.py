@@ -1,2 +1,5 @@
 import urizen.generators.rooms.building_housebarn
 from urizen.generators.rooms.building_housebarn import building_housebarn
+
+import urizen.generators.rooms.building_hunter_robber_house
+from urizen.generators.rooms.building_hunter_robber_house import building_hunter_robber_house
