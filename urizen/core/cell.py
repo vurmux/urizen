@@ -23,7 +23,7 @@ class Cell(object):
     tags -- List of cell tags
     """
 
-    height = 0
+    height = 1
     terrain = None
     cell_type = None
     symbol = '.'

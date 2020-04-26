@@ -6,215 +6,153 @@ from urizen.core.thing import Thing
 
 # Dungeon
 
-item_skull = type('item_skull', (Thing,), {
+item_bones_skull = type('item_bones_skull', (Thing,), {
     'thing_type': 'item',
     'symbol': ',',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#FFFFF0',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-item_candle = type('item_candle', (Thing,), {
+item_furniture_torch = type('item_furniture_torch', (Thing,), {
     'thing_type': 'item',
     'symbol': 'L',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#FF0000',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-item_bones = type('item_bones', (Thing,), {
+item_bones_human = type('item_bones_human', (Thing,), {
     'thing_type': 'item',
     'symbol': 'I',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#FFFFF0',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-item_bucket = type('item_bucket', (Thing,), {
+item_bones_remains = type('item_bones_remains', (Thing,), {
+    'thing_type': 'item',
+    'symbol': 'I',
+    'pixel_color': '#FFFFF0',
+    'passable': True,
+})
+
+item_furniture_bucket = type('item_furniture_bucket', (Thing,), {
     'thing_type': 'item',
     'symbol': 'U',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#191010',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
 item_spider_web = type('item_spider_web', (Thing,), {
     'thing_type': 'item',
     'symbol': 'O',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#514949',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-item_pliers = type('item_pliers', (Thing,), {
+item_tool_tongs = type('item_tool_tongs', (Thing,), {
     'thing_type': 'item',
     'symbol': ':',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#514949',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
 # Furniture
 
-furniture_hearth = type('furniture_hearth', (Thing,), {
+item_furniture_hearth = type('item_furniture_hearth', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '#',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#FF0000',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_table = type('furniture_table', (Thing,), {
+other_blood = type('other_blood', (Thing,), {
+    'thing_type': 'blood',
+    'symbol': '.',
+    'pixel_color': '#FF0000',
+    'passable': True,
+})
+
+item_furniture_table = type('item_furniture_table', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '=',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#905000',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_alchemist_table = type('furniture_alchemist_table', (Thing,), {
+cell_magic_alchemisttable = type('cell_magic_alchemisttable', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '=',
-    'bg_color': '#000000',
-    'fg_color': '#00FF00',
     'pixel_color': '#40B040',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_chair = type('furniture_chair', (Thing,), {
+item_furniture_stool = type('item_furniture_stool', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '\\',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#905000',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-furniture_torture_chair = type('furniture_torture_chair', (Thing,), {
+item_furniture_torture = type('item_furniture_torture', (Thing,), {
     'thing_type': 'furniture',
     'symbol': 'X',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#905000',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-furniture_bookcase = type('furniture_bookcase', (Thing,), {
+item_furniture_bookcase = type('item_furniture_bookcase', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '[',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#FFEED0',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_manger = type('furniture_manger', (Thing,), {
+item_furniture_mangler = type('item_furniture_mangler', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '=',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#C3C300',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
 furniture_watertrough = type('furniture_watertrough', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '=',
-    'bg_color': '#000000',
-    'fg_color': '#0000FF',
     'pixel_color': '#0000CF',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_bed = type('furniture_bed', (Thing,), {
+item_furniture_bed_single = type('item_furniture_bed_single', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '_',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#B06000',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-furniture_sleeping_bag = type('furniture_sleeping_bag', (Thing,), {
+item_furniture_napsack = type('item_furniture_napsack', (Thing,), {
     'thing_type': 'furniture',
     'symbol': '_',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#B06000',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })
 
-furniture_chest = type('furniture_chest', (Thing,), {
+item_furniture_chest = type('item_furniture_chest', (Thing,), {
     'thing_type': 'furniture',
     'symbol': 'Q',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#300238',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
-furniture_wardrobe = type('furniture_wardrobe', (Thing,), {
+item_furniture_closet = type('item_furniture_closet', (Thing,), {
     'thing_type': 'furniture',
     'symbol': 'W',
-    'bg_color': '#000000',
-    'fg_color': '#FF0000',
     'pixel_color': '#291010',
-    'sprite': None,
     'passable': False,
-    'tags': []
 })
 
 # Other
 
-other_bonfire = type('other_bonfire', (Thing,), {
+item_furniture_bonfire = type('item_furniture_bonfire', (Thing,), {
     'thing_type': 'item',
     'symbol': ',',
-    'bg_color': '#000000',
-    'fg_color': '#FFFFFF',
     'pixel_color': '#761600',
-    'sprite': None,
     'passable': True,
-    'tags': []
 })

@@ -44,7 +44,10 @@ class Map(object):
     
     def transpose(self):
         self.w, self.h = self.h, self.w
-        self.cells = list(zip(*self.cells))
+        new_cells = []
+        for line in zip(*self.cells):
+            new_cells.append(list(line))
+        self.cells = new_cells
 
     def hmirror(self):
         for line in self.cells:

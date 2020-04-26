@@ -61,7 +61,9 @@ setup(
         'dev': [],
         'test': [],
     },
-    package_data={},
+    package_data={
+        'urizen': ['data/*.json', 'data/*.png']
+    },
     entry_points={},
 )
 

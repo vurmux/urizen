@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tileset version="1.2" tiledversion="1.3.3" name="colored" tilewidth="12" tileheight="12" spacing="1" margin="1" tilecount="380" columns="20">
+ <editorsettings>
+  <export target="colored.json" format="json"/>
+ </editorsettings>
  <image source="colored.png" width="261" height="248"/>
  <tile id="0">
   <properties>
    <property name="group" value="dungeon"/>
    <property name="index" type="int" value="0"/>
-   <property name="subtype" value="smooth"/>
+   <property name="subgroup" value="smooth"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -14,7 +17,7 @@
   <properties>
    <property name="group" value="dungeon"/>
    <property name="index" type="int" value="1"/>
-   <property name="subtype" value="smooth"/>
+   <property name="subgroup" value="smooth"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -23,7 +26,7 @@
   <properties>
    <property name="group" value="dungeon"/>
    <property name="index" type="int" value="2"/>
-   <property name="subtype" value="smooth"/>
+   <property name="subgroup" value="smooth"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -76,7 +79,6 @@
  <tile id="8">
   <properties>
    <property name="group" value="down"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="stairs"/>
    <property name="type" value="cell"/>
   </properties>
@@ -84,7 +86,6 @@
  <tile id="9">
   <properties>
    <property name="group" value="up"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="stairs"/>
    <property name="type" value="cell"/>
   </properties>
@@ -92,7 +93,6 @@
  <tile id="10">
   <properties>
    <property name="group" value="open"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="door"/>
    <property name="type" value="cell"/>
   </properties>
@@ -124,7 +124,6 @@
  <tile id="14">
   <properties>
    <property name="group" value="closed"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="door"/>
    <property name="type" value="cell"/>
   </properties>
@@ -292,7 +291,7 @@
  <tile id="40">
   <properties>
    <property name="group" value="house"/>
-   <property name="subgroup" value="default"/>
+   <property name="index" type="int" value="0"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -300,7 +299,7 @@
  <tile id="41">
   <properties>
    <property name="group" value="house"/>
-   <property name="subgroup" value="flat"/>
+   <property name="index" type="int" value="1"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -308,7 +307,7 @@
  <tile id="42">
   <properties>
    <property name="group" value="house"/>
-   <property name="subgroup" value="chimney"/>
+   <property name="index" type="int" value="2"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -347,7 +346,7 @@
  <tile id="47">
   <properties>
    <property name="group" value="tower"/>
-   <property name="subgroup" value="fortified"/>
+   <property name="index" type="int" value="1"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -355,7 +354,6 @@
  <tile id="48">
   <properties>
    <property name="group" value="castle"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -363,7 +361,7 @@
  <tile id="49">
   <properties>
    <property name="group" value="tower"/>
-   <property name="subgroup" value="default"/>
+   <property name="index" type="int" value="0"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -371,7 +369,6 @@
  <tile id="50">
   <properties>
    <property name="group" value="city"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="building"/>
    <property name="type" value="cell"/>
   </properties>
@@ -421,7 +418,6 @@
  <tile id="66">
   <properties>
    <property name="group" value="bonfire"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="furniture"/>
    <property name="type" value="item"/>
   </properties>
@@ -466,7 +462,6 @@
  <tile id="72">
   <properties>
    <property name="group" value="lantern"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="light"/>
    <property name="type" value="item"/>
   </properties>
@@ -513,7 +508,6 @@
  <tile id="84">
   <properties>
    <property name="group" value="tree"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="flora"/>
    <property name="type" value="cell"/>
   </properties>
@@ -611,7 +605,6 @@
  </tile>
  <tile id="100">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="floor"/>
    <property name="type" value="cell"/>
   </properties>
@@ -779,7 +772,7 @@
  <tile id="126">
   <properties>
    <property name="group" value="block"/>
-   <property name="subgroup" value="default"/>
+   <property name="index" type="int" value="0"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -787,8 +780,7 @@
  <tile id="127">
   <properties>
    <property name="group" value="block"/>
-   <property name="index" type="int" value="0"/>
-   <property name="subgroup" value="broken"/>
+   <property name="index" type="int" value="1"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -796,8 +788,7 @@
  <tile id="128">
   <properties>
    <property name="group" value="block"/>
-   <property name="index" type="int" value="1"/>
-   <property name="subgroup" value="broken"/>
+   <property name="index" type="int" value="2"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -805,7 +796,7 @@
  <tile id="129">
   <properties>
    <property name="group" value="brick"/>
-   <property name="subgroup" value="default"/>
+   <property name="index" type="int" value="0"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -813,8 +804,7 @@
  <tile id="130">
   <properties>
    <property name="group" value="brick"/>
-   <property name="index" type="int" value="0"/>
-   <property name="subgroup" value="broken"/>
+   <property name="index" type="int" value="1"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -822,8 +812,7 @@
  <tile id="131">
   <properties>
    <property name="group" value="brick"/>
-   <property name="index" type="int" value="1"/>
-   <property name="subgroup" value="broken"/>
+   <property name="index" type="int" value="2"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -863,7 +852,6 @@
  <tile id="136">
   <properties>
    <property name="group" value="plank"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="wall"/>
    <property name="type" value="cell"/>
   </properties>
@@ -1075,7 +1063,6 @@
  </tile>
  <tile id="170">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="enemy"/>
    <property name="type" value="actor"/>
   </properties>
@@ -1091,7 +1078,6 @@
  <tile id="172">
   <properties>
    <property name="group" value="nomad"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="enemy"/>
    <property name="type" value="actor"/>
   </properties>
@@ -1114,7 +1100,6 @@
  <tile id="175">
   <properties>
    <property name="group" value="skeleton"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="enemy"/>
    <property name="type" value="actor"/>
   </properties>
@@ -1562,7 +1547,6 @@
  </tile>
  <tile id="244">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="sign"/>
    <property name="type" value="cell"/>
   </properties>
@@ -1620,7 +1604,6 @@
  <tile id="252">
   <properties>
    <property name="group" value="antique"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="column"/>
    <property name="type" value="cell"/>
   </properties>
@@ -1845,7 +1828,6 @@
  </tile>
  <tile id="285">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="scroll"/>
    <property name="type" value="item"/>
   </properties>
@@ -1883,7 +1865,6 @@
  </tile>
  <tile id="290">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="book"/>
    <property name="type" value="item"/>
   </properties>
@@ -2036,7 +2017,6 @@
  <tile id="316">
   <properties>
    <property name="group" value="axe"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="weapon"/>
    <property name="type" value="item"/>
   </properties>
@@ -2093,7 +2073,6 @@
  <tile id="324">
   <properties>
    <property name="group" value="bow"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="weapon"/>
    <property name="type" value="item"/>
   </properties>
@@ -2169,7 +2148,6 @@
  </tile>
  <tile id="340">
   <properties>
-   <property name="group" value="default"/>
    <property name="supergroup" value="key"/>
    <property name="type" value="item"/>
   </properties>
@@ -2300,10 +2278,15 @@
    <property name="type" value="item"/>
   </properties>
  </tile>
+ <tile id="359">
+  <properties>
+   <property name="supergroup" value="void"/>
+   <property name="type" value="cell"/>
+  </properties>
+ </tile>
  <tile id="360">
   <properties>
    <property name="group" value="shield"/>
-   <property name="subgroup" value="default"/>
    <property name="supergroup" value="armor"/>
    <property name="type" value="item"/>
   </properties>
@@ -2438,9 +2421,6 @@
  </tile>
  <tile id="379">
   <properties>
-   <property name="group" value="unknown"/>
-   <property name="subgroup" value="unknown"/>
-   <property name="supergroup" value="unknown"/>
    <property name="type" value="unknown"/>
   </properties>
  </tile>
