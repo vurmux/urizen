@@ -9,3 +9,13 @@ from urizen.generators.rooms.building_prison import building_prison_linear
 
 import urizen.generators.rooms.room_prison_cell
 from urizen.generators.rooms.room_prison_cell import room_prison_cell
+
+import urizen.generators.rooms.building_prison
+from urizen.generators.rooms.building_prison import (
+    building_prison_rectangular,
+    building_prison_linear,
+    building_prison
+)
+
+import urizen.generators.rooms.room_default
+from urizen.generators.rooms.room_default import room_default
