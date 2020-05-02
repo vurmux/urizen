@@ -3,21 +3,21 @@
 import random
 from urizen.core.map import Map
 from urizen.core.cell_collection import (
-    cell_building_floor_stone,
-    cell_building_floor_wooden,
-    cell_building_wall_stone,
-    cell_building_wall_wooden,
-    cell_building_closed_door,
-    cell_dungeon_stairs_down
+    cell_floor_flagged,
+    cell_floor_plank,
+    cell_wall_stone,
+    cell_wall_plank,
+    cell_door_closed,
+    cell_stairs_down
 )
 from urizen.core.thing_collection import (
-    furniture_hearth,
-    furniture_table,
-    furniture_chair,
-    furniture_bed,
-    furniture_chest,
-    furniture_wardrobe,
-    other_bonfire,
+    item_furniture_hearth,
+    item_furniture_table,
+    item_furniture_stool,
+    item_furniture_bed_single,
+    item_furniture_chest,
+    item_furniture_closet,
+    item_furniture_bonfire,
 )
 
 def building_hunter_robber_house(size=10, material=None, type_house=None):
@@ -47,8 +47,8 @@ def building_hunter_robber_house(size=10, material=None, type_house=None):
         material = random.choice(['wooden', 'stone'])
     if material not in ('wooden', 'stone'):
         raise ValueError('Material should be "stone" or "wooden"')
-    wall_cell_type = cell_building_wall_stone if material == 'stone' else cell_building_wall_wooden
-    floor_cell_type = cell_building_floor_stone if material == 'stone' else cell_building_floor_wooden
+    wall_cell_type = cell_wall_stone if material == 'stone' else cell_wall_plank
+    floor_cell_type = cell_floor_flagged if material == 'stone' else cell_floor_plank
 
     # Choose between robber house and hunter house
     if not type_house:
@@ -70,55 +70,55 @@ def building_hunter_robber_house(size=10, material=None, type_house=None):
     door_random = random.choice([True, False])
     door_param = size//3 * 2
     if door_random:
-        M[door_param, size-1] = cell_building_closed_door(door_param, size-1)
+        M[door_param, size-1] = cell_door_closed(door_param, size-1)
     else:
-        M[0, door_param] = cell_building_closed_door(0, door_param)
+        M[0, door_param] = cell_door_closed(0, door_param)
     
     # Place bonfire or hearth in the middle of the room. Place chairs
-    M[size//2-1, size//2].things.append(furniture_chair())
-    M[size//2+1, size//2].things.append(furniture_chair())
+    M[size//2-1, size//2].things.append(item_furniture_stool())
+    M[size//2+1, size//2].things.append(item_furniture_stool())
     if type_house == 'hunter':
-        M[size//2, size//2].things.append(furniture_hearth())
+        M[size//2, size//2].things.append(item_furniture_hearth())
     else:
-        M[size//2, size//2].things.append(other_bonfire())
+        M[size//2, size//2].things.append(item_furniture_bonfire())
     
     # Randomly choose where escape is. Place stairs and wardrobes. 
     escape = random.choice([True, False])
     if escape:
-        M[size-2, 1] = cell_dungeon_stairs_down(size-2, 1)
+        M[size-2, 1] = cell_stairs_down(size-2, 1)
         if type_house == 'robber':
-            M[size-3, 1].things.append(furniture_wardrobe())
-            M[size-3, 2].things.append(furniture_wardrobe())
-            M[size-2, 2].things.append(furniture_wardrobe())
+            M[size-3, 1].things.append(item_furniture_closet())
+            M[size-3, 2].things.append(item_furniture_closet())
+            M[size-2, 2].things.append(item_furniture_closet())
         elif type_house == 'hunter':
-            M[size-2, size-2].things.append(furniture_wardrobe())
+            M[size-2, size-2].things.append(item_furniture_closet())
     else:
-        M[1,1] = cell_dungeon_stairs_down(1,1)
+        M[1,1] = cell_stairs_down(1,1)
         if type_house == 'robber':
-            M[2, 1].things.append(furniture_wardrobe())
-            M[2, 2].things.append(furniture_wardrobe())
-            M[1, 2].things.append(furniture_wardrobe())
+            M[2, 1].things.append(item_furniture_closet())
+            M[2, 2].things.append(item_furniture_closet())
+            M[1, 2].things.append(item_furniture_closet())
         elif type_house == 'hunter':
-            M[size-2, size-2].things.append(furniture_wardrobe())
+            M[size-2, size-2].things.append(item_furniture_closet())
 
     # Place beds near walls
     beds_start = 1 if escape else size//3+1
     beds_end = size//2 if escape else size-1
     if escape:
         for x in range(beds_start, beds_end+1, 2):
-            M[x, 1].things.append(furniture_bed())
+            M[x, 1].things.append(item_furniture_bed_single())
     else:
         for x in range(beds_start+1, beds_end, 2):
-            M[x, 1].things.append(furniture_bed())    
+            M[x, 1].things.append(item_furniture_bed_single())    
 
     # Place chests
-    M[size-2, size//2-1].things.append(furniture_chest())
-    M[size-2, size//2].things.append(furniture_chest())
+    M[size-2, size//2-1].things.append(item_furniture_chest())
+    M[size-2, size//2].things.append(item_furniture_chest())
 
     # Place table with chairs
     for x in range(size//5, size//2):
-        M[x, size-2].things.append(furniture_table())
+        M[x, size-2].things.append(item_furniture_table())
     for x in range(size//5+1, size//2, 2):
-        M[x, size-3].things.append(furniture_chair())
+        M[x, size-3].things.append(item_furniture_stool())
     
     return M
