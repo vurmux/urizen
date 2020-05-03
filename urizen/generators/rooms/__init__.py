@@ -19,3 +19,4 @@ from urizen.generators.rooms.building_prison import (
 
 import urizen.generators.rooms.room_default
 from urizen.generators.rooms.room_default import room_default
+
