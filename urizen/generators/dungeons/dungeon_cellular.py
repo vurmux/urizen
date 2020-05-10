@@ -3,7 +3,7 @@
 import random
 from copy import deepcopy
 from urizen.core.map import Map
-from urizen.core.cell_collection import cell_dungeon_wall, cell_dungeon_floor
+from urizen.core.entity_collection import C
 
 
 def dungeon_cellular_simple(w, h, start_floor_chance=0.55, smooth_level=3):
@@ -31,14 +31,14 @@ def dungeon_cellular_simple(w, h, start_floor_chance=0.55, smooth_level=3):
         Number of sequential smooth functions
     """
 
-    M = Map(w, h, fill_cell=cell_dungeon_wall)
+    M = Map(w, h, fill_cell=C.wall_cave)
 
     # Randomly fill all-but-border cells by floor with start_floor_chance probability
     for y, line in enumerate(M.cells[1: -1]):
         for x, _ in enumerate(line[1: -1]):
             chance = random.random()
             if chance <= start_floor_chance:
-                M.cells[y+1][x+1] = cell_dungeon_floor
+                M.cells[y+1][x+1] = C.floor_dirt()
     
     # Sequentially smooth the map smooth_level times
     for _ in range(smooth_level):
@@ -62,7 +62,7 @@ def _smooth_map(M):
             true_y = y + 1
             # Check the number of walls in ORIGINAL map
             number_of_walls = sum(
-                cell.cell_type == 'wall'
+                cell.__class__.__name__ == 'wall_cave'
                 for cell in [
                     M.cells[true_y][true_x],
                     M.cells[true_y+1][true_x],
@@ -77,8 +77,8 @@ def _smooth_map(M):
             )
             # And set them in smoothed map
             M2.cells[true_y][true_x] = (
-                cell_dungeon_wall
+                C.wall_cave()
                 if number_of_walls >= 5
-                else cell_dungeon_floor
+                else C.floor_dirt()
             )
     return M2

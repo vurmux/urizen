@@ -12,3 +12,6 @@ from urizen.generators.worlds import *
 
 import urizen.generators.rooms
 from urizen.generators.rooms import *
+
+import urizen.generators.buildings
+from urizen.generators.buildings import *

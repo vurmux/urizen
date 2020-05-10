@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+from urizen.core.thing import Thing
+from urizen.core.actor import Actor
+
 
 class Cell(object):
     """
@@ -14,6 +17,7 @@ class Cell(object):
     cell_type -- Cell type
     features -- List of features of the cell
     things -- List of things inside the cell
+    actors -- List of actors inside the cell
     symbol -- Symbol to print in terminal visualizers
     bg_color -- Background color in terminal visualizers
     fg_color -- Foreground color in terminal visualizers
@@ -34,12 +38,16 @@ class Cell(object):
     passable = False
     tags = []
 
-    def __init__(self, x, y, z=0, **kwargs):
-        self.x = x
-        self.y = y
-        self.z = z
+    def __init__(self, **kwargs):
         self.features = []
         self.things = []
+        self.actors = []
         for arg, value in kwargs.items():
             if arg in Cell.__dict__ and not arg.startswith('__'):
                 self.__dict__[arg] = value
+
+    def put(self, entity):
+        if issubclass(entity.__class__, Actor):
+            self.actors.append(entity)
+        elif issubclass(entity.__class__, Thing):
+            self.things.append(entity)

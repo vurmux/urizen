@@ -38,8 +38,8 @@ The result image will be automatically opened with a default image viewer.
 
 setup(
     name='urizen',
-    version='0.0.3',
-    description='Roguelike dungeon generation library',
+    version='0.1.0',
+    description='Roguelike world generation library',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/vurmux/urizen',
     author='Andrey Voronov',

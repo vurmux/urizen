@@ -3,14 +3,7 @@
 import random
 import noise
 from urizen.core.map import Map
-from urizen.core.cell_collection import (
-    cell_terrain_deep_water,
-    cell_terrain_water,
-    cell_terrain_grassland,
-    cell_terrain_forest,
-    cell_terrain_mountain,
-    cell_terrain_pinnacle
-)
+from urizen.core.entity_collection import C
 
 
 def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
@@ -20,7 +13,7 @@ def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=
     startx = random.randint(0, w*100)
     starty = random.randint(0, h*100)
     for y, line in enumerate(M.cells):
-        for x, C in enumerate(line):
+        for x, cell in enumerate(line):
             n = noise.pnoise2(
                 (startx+x)/scale,
                 (starty+y)/scale,
@@ -31,7 +24,7 @@ def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=
                 repeaty=h,
                 base=2
             )
-            M.cells[y][x].noise = n
+            M[x, y].noise = n
             if min_value is None:
                 min_value = n
             if max_value is None:
@@ -44,18 +37,18 @@ def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=
     delta = (max_value - min_value) / 12
 
     for y, line in enumerate(M.cells):
-        for x, C in enumerate(line):
-            if M.cells[y][x].noise < min_value + delta:
-                M.cells[y][x] = cell_terrain_deep_water(x, y)
-            elif M.cells[y][x].noise < min_value + 5*delta:
-                M.cells[y][x] = cell_terrain_water(x, y)
-            elif M.cells[y][x].noise < min_value + 8*delta:
-                M.cells[y][x] = cell_terrain_grassland(x, y)
-            elif M.cells[y][x].noise < min_value + 10*delta:
-                M.cells[y][x] = cell_terrain_forest(x, y)
-            elif M.cells[y][x].noise < min_value + 12*delta:
-                M.cells[y][x] = cell_terrain_mountain(x, y)
+        for x, cell in enumerate(line):
+            if M[x, y].noise < min_value + delta:
+                M[x, y] = C.overworld_ocean()
+            elif M[x, y].noise < min_value + 5*delta:
+                M[x, y] = C.overworld_ocean()
+            elif M[x, y].noise < min_value + 8*delta:
+                M[x, y] = C.overworld_plains()
+            elif M[x, y].noise < min_value + 10*delta:
+                M[x, y] = C.overworld_forest()
+            elif M[x, y].noise < min_value + 12*delta:
+                M[x, y] = C.overworld_mountain()
             else:
-                M.cells[y][x] = cell_terrain_pinnacle(x, y)
+                M[x, y] = C.overworld_pinnacle()
     
     return M

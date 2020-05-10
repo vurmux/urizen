@@ -3,7 +3,7 @@
 import random
 from uuid import uuid4
 from urizen.core.map import Map
-from urizen.core.cell_collection import cell_dungeon_wall, cell_dungeon_floor
+from urizen.core.entity_collection import C
 
 
 def dungeon_bsp_tree(w, h, optimal_block_size=10):
@@ -27,7 +27,7 @@ def dungeon_bsp_tree(w, h, optimal_block_size=10):
         Optimal block size. Approximately equals to room size.
     """
 
-    M = Map(w, h, fill_cell=cell_dungeon_wall)
+    M = Map(w, h, fill_cell=C.wall_dungeon_rough)
     nodes = {}
     root = BSPNode('v', 1, 1, w - 1, h - 1)
     _recursive_split_tree_node(root, optimal_block_size)
@@ -162,7 +162,7 @@ def _fill_rooms(M, nodes):
     for node in nodes:
         for y in range(node.room_y1, node.room_y2):
             for x in range(node.room_x1, node.room_x2):
-                M.cells[y][x] = cell_dungeon_floor(x, y)
+                M[x, y] = C.floor()
 
 
 def _get_all_edges(bsp_nodes):
@@ -236,11 +236,11 @@ def _create_corridors(M, nodes, edges):
                 min(n1.room_x2, n2.room_x2)
             )
             for y in range(min(n2.room_y2, n1.room_y1), max(n2.room_y2, n1.room_y1)):
-                M.cells[y][x] = cell_dungeon_floor(x, y)
+                M[x, y] = C.floor()
         elif max(n1.room_y1, n2.room_y1) < min(n1.room_y2, n2.room_y2):
             y = random.randint(
                 max(n1.room_y1, n2.room_y1),
                 min(n1.room_y2, n2.room_y2)
             )
             for x in range(min(n2.room_x2, n1.room_x1), max(n2.room_x2, n1.room_x1)):
-                M.cells[y][x] = cell_dungeon_floor(x, y)
+                M[x, y] = C.floor()

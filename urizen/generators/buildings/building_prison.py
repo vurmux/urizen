@@ -2,29 +2,7 @@
 
 import random
 from urizen.core.map import Map
-from urizen.core.cell_collection import (
-    cell_floor_flagged,
-    cell_wall_stone,
-    cell_door_closed,
-    cell_wall_fence_metal,
-    cell_void,
-    cell_stairs_up
-)
-
-from urizen.core.thing_collection import (
-    item_furniture_torch,
-    item_furniture_napsack,
-    item_furniture_bed_single,
-    item_furniture_stool,
-    item_furniture_table,
-    item_furniture_chest,
-    item_furniture_torture,
-    item_furniture_bucket,
-    item_bones_human,
-    item_spider_web,
-    item_bones_skull,
-    item_tool_tongs
-)
+from urizen.core.entity_collection import C, T
 from urizen.generators.rooms.room_prison_cell import room_prison_cell
 
 
@@ -87,7 +65,7 @@ def building_prison_linear(w=21, h=12, orientation='horizontal'):
 
     if orientation == 'vertical':
         w, h = h, w
-    M = Map(w, h, fill_cell=cell_void)
+    M = Map(w, h, fill_cell=C.void)
 
     # Randomly choose where torture room and jailer room are.
     torture_left, jailer_right = None, None
@@ -103,43 +81,43 @@ def building_prison_linear(w=21, h=12, orientation='horizontal'):
     if jailer_right:
         # Create walls, floor and door
         for y in range(jailer_y_start, jailer_y_end+1):
-            M[w-1, y] = cell_wall_stone(w-1, y)
-            M[w-5, y] = cell_wall_stone(w-5, y)
+            M[w-1, y] = C.wall_stone()
+            M[w-5, y] = C.wall_stone()
         for x in range(w-5, w):
-            M[x, jailer_y_start] = cell_wall_stone(x, jailer_y_start)
-            M[x, jailer_y_end] = cell_wall_stone(x, jailer_y_end)
+            M[x, jailer_y_start] = C.wall_stone()
+            M[x, jailer_y_end] = C.wall_stone()
         for y in range(jailer_y_start+1, jailer_y_end):
             for x in range(w-4, w-1):
-                M[x, y] = cell_floor_flagged(x, y)   
-        M[w-5, h//2] = cell_door_closed(w-5, h//2)
+                M[x, y] = C.floor_flagged()   
+        M[w-5, h//2] = C.door_closed()
 
         # Place some furniture
-        M[w-4, jailer_y_start+1].things.append(item_furniture_table())
-        M[w-3, jailer_y_start+1].things.append(item_furniture_table())
-        M[w-2, jailer_y_start+1].things.append(item_furniture_stool())
-        M[w-4, jailer_y_end-1].things.append(item_furniture_torch())
-        M[w-3, jailer_y_end-1].things.append(item_furniture_bed_single())
-        M[w-2, jailer_y_end-1].things.append(item_furniture_chest())
+        M[w-4, jailer_y_start+1].put(T.furniture_table())
+        M[w-3, jailer_y_start+1].put(T.furniture_table())
+        M[w-2, jailer_y_start+1].put(T.furniture_chair())
+        M[w-4, jailer_y_end-1].put(T.furniture_torch())
+        M[w-3, jailer_y_end-1].put(T.furniture_bed_single())
+        M[w-2, jailer_y_end-1].put(T.furniture_chest())
     else:
         # Create walls, floor and door
         for y in range(jailer_y_start, jailer_y_end+1):
-            M[0, y] = cell_wall_stone(0, y)
-            M[4, y] = cell_wall_stone(4, y)
+            M[0, y] = C.wall_stone()
+            M[4, y] = C.wall_stone()
         for x in range(0, 5):
-            M[x, jailer_y_start] = cell_wall_stone(x, jailer_y_start)
-            M[x, jailer_y_end] = cell_wall_stone(x, jailer_y_end)
+            M[x, jailer_y_start] = C.wall_stone()
+            M[x, jailer_y_end] = C.wall_stone()
         for y in range(jailer_y_start+1, jailer_y_end):
             for x in range(1, 4):
-                M[x, y] = cell_floor_flagged(x, y)
-        M[4, h//2] = cell_door_closed(4, h//2)
+                M[x, y] = C.floor_flagged()
+        M[4, h//2] = C.door_closed()
 
         # Place some furniture
-        M[1, jailer_y_start+1].things.append(item_furniture_table())
-        M[2, jailer_y_start+1].things.append(item_furniture_table())
-        M[3, jailer_y_start+1].things.append(item_furniture_stool())
-        M[1, jailer_y_end-1].things.append(item_furniture_chest())
-        M[2, jailer_y_end-1].things.append(item_furniture_bed_single())
-        M[3, jailer_y_end-1].things.append(item_furniture_torch())
+        M[1, jailer_y_start+1].put(T.furniture_table())
+        M[2, jailer_y_start+1].put(T.furniture_table())
+        M[3, jailer_y_start+1].put(T.furniture_chair())
+        M[1, jailer_y_end-1].put(T.furniture_chest())
+        M[2, jailer_y_end-1].put(T.furniture_bed_single())
+        M[3, jailer_y_end-1].put(T.furniture_torch())
 
     # Create torture room. We have two situations: torture room left/right. torture_start and torture_end - x-coord.
     # If torture_end = 0 or 1, there is no place for room (only one or two walls)
@@ -154,60 +132,60 @@ def building_prison_linear(w=21, h=12, orientation='horizontal'):
 
         # Create walls, floor and door
         for x in range(torture_start, torture_end+1):
-            M[x, 0] = cell_wall_stone(x, 0)
-            M[x, h-1] = cell_wall_stone(x, h-1)
+            M[x, 0] = C.wall_stone()
+            M[x, h-1] = C.wall_stone()
         for y in range(0, h-1):
-            M[torture_start, y] = cell_wall_stone(y, torture_start)
-            M[torture_end, y] = cell_wall_stone(y, torture_end)
+            M[torture_start, y] = C.wall_stone()
+            M[torture_end, y] = C.wall_stone()
         for x in range(torture_start+1, torture_end):
             for y in range(1, h-1):
-                M[x, y] = cell_floor_flagged(x, y)
-        M[torture_end, h//2] = cell_door_closed(torture_end, h//2)
+                M[x, y] = C.floor_flagged()
+        M[torture_end, h//2] = C.door_closed()
 
         # Place some furniture. If torture_end == 2 (just a corridor), then we set only stairs.
-        M[torture_end-1, h-2] = cell_stairs_up(torture_end-1, h-2)
+        M[torture_end-1, h-2] = C.stairs_up()
         if torture_end != 2:
-            M[(torture_end-torture_start)//2, h//2].things.append(item_furniture_torture())
+            M[(torture_end-torture_start)//2, h//2].put(T.furniture_torture())
             all_coord = [(torture_end-1, h-2), ((torture_end-torture_start)//2, h//2)]
-            for item_class in (item_bones_human, item_bones_skull, item_tool_tongs):
+            for item_class in (T.bones, T.bones_skull, T.tool_tongs):
                 while True:
-                    x = random.randint(1,torture_end-1)
-                    y = random.randint(1,h-2)
+                    x = random.randint(1, torture_end-1)
+                    y = random.randint(1, h-2)
                     if (x, y) not in all_coord:
-                        M[x, y].things.append(item_class())
+                        M[x, y].put(item_class())
                         all_coord.append((x,y))
                         break
     else:
         # If torture room is right, we are using the torture room width for calculations.
         # If torture_width = 7, then we reduce torture room for a one cell's width (-4).
-        torture_width = w%4 + 4
+        torture_width = w % 4 + 4
         if torture_width == 7:
             torture_width = 3
-        torture_end = w-1
+        torture_end = w - 1
 
         # Create walls, floor and door
         for x in range(w-torture_width, torture_end):
-            M[x, 0] = cell_wall_stone(x, 0)
-            M[x, h-1] = cell_wall_stone(x, h-1)
+            M[x, 0] = C.wall_stone()
+            M[x, h-1] = C.wall_stone()
         for y in range(0, h):
-            M[w-torture_width, y] = cell_wall_stone(w-torture_width, y)
-            M[torture_end, y] = cell_wall_stone(torture_end, y)
+            M[w-torture_width, y] = C.wall_stone()
+            M[torture_end, y] = C.wall_stone()
         for x in range(w-torture_width+1, torture_end):
             for y in range(1, h-1):
-                M[x, y] = cell_floor_flagged(x, y)
-        M[w-torture_width, h//2] = cell_door_closed(w-torture_width, h//2)
+                M[x, y] = C.floor_flagged()
+        M[w-torture_width, h//2] = C.door_closed()
 
         # Place some furniture. If torture_width = 3 (just a corridor), then we set only stairs.
-        M[w-2, h-2] = cell_stairs_up(w-2, h-2)
+        M[w-2, h-2] = C.stairs_up()
         if torture_width != 3:
-            M[w-2, h//2].things.append(item_furniture_torture())
+            M[w-2, h//2].put(T.furniture_torture())
             all_coord = [(w-1, h-2), (w-2, h//2)]
-            for item_class in (item_bones_human, item_bones_skull, item_tool_tongs):
+            for item_class in (T.bones, T.bones_skull, T.tool_tongs):
                 while True:
                     x = random.randint(w-torture_width+1, w-2)
                     y = random.randint(1,h-2)
                     if (x, y) not in all_coord:
-                        M[x, y].things.append(item_class())
+                        M[x, y].put(item_class())
                         all_coord.append((x,y))
                         break
     
@@ -220,11 +198,11 @@ def building_prison_linear(w=21, h=12, orientation='horizontal'):
         cor_end = w - torture_width - 1
     if h % 2 == 1:
         for x in range(cor_start, cor_end+1):
-            M[x, h//2] = cell_floor_flagged(x, h//2)
+            M[x, h//2] = C.floor_flagged()
     else:
         for x in range(cor_start, cor_end+1):
-            M[x, h//2-1] = cell_floor_flagged(x, h//2-1)
-            M[x, h//2] = cell_floor_flagged(x, h//2)
+            M[x, h//2-1] = C.floor_flagged()
+            M[x, h//2] = C.floor_flagged()
     
     # Place prison cells
     number_of_cells = (cor_end - cor_start + 2) // 4
@@ -261,7 +239,7 @@ def building_prison_rectangular(w=17, h=17):
     # Initial checks. Don't accept too small prisons
     if w < 17 or h < 17:
         raise ValueError('Building is too small: w or h < 17')
-    M = Map(w, h, fill_cell=cell_void)
+    M = Map(w, h, fill_cell=C.void)
 
     # Calculate prison cells sizes depends on prison size.
     cell_shift_w = (w - 1) % 4
@@ -327,16 +305,16 @@ def building_prison_rectangular(w=17, h=17):
 
     # Construct the corridor
     for x in range(left_w+1, w-right_w-1):
-        M[x, top_h+1] = cell_floor_flagged(x, top_h+1)
-        M[x, h-bottom_h-2] = cell_floor_flagged(x, h-bottom_h-2)
+        M[x, top_h+1] = C.floor_flagged()
+        M[x, h-bottom_h-2] = C.floor_flagged()
     for y in range(top_h+1, h-bottom_h-1):
-        M[left_w+1, y] = cell_floor_flagged(left_w+1, 0)
-        M[w-right_w-2, y] = cell_floor_flagged(w-right_w-2, y)
+        M[left_w+1, y] = C.floor_flagged()
+        M[w-right_w-2, y] = C.floor_flagged()
 
     return M
     
 def _room_prison_center(w=5, h=5):
-    M = Map(w, h, fill_cell=cell_floor_flagged)
+    M = Map(w, h, fill_cell=C.floor_flagged)
     if w > 8 and h > 4:
         jailer_room = _room_jailer(w//2+1, h)
         M.meld(jailer_room, 0, 0)
@@ -349,68 +327,68 @@ def _room_prison_center(w=5, h=5):
         M.meld(torture_room, 0, (h-h//2)-1)
     else:
         for x in range(0, w):
-            M[x, 0] = cell_wall_stone(x, 0)
-            M[x, h-1] = cell_wall_stone(x, h-1)
+            M[x, 0] = C.wall_stone()
+            M[x, h-1] = C.wall_stone()
         for y in range(0, h):
-            M[0, y] = cell_wall_stone(x, 0)
-            M[w-1, y] = cell_wall_stone(w-1, y)
-        M[w//2, 0] = cell_door_closed(w//2, 0)
-        M[w//2, h//2] = cell_stairs_up(w//2, h//2)
+            M[0, y] = C.wall_stone()
+            M[w-1, y] = C.wall_stone()
+        M[w//2, 0] = C.door_closed()
+        M[w//2, h//2] = C.stairs_up()
     
     return M
 
 def _room_jailer(w=5, h=5):
-    M = Map(w, h, fill_cell=cell_floor_flagged)
+    M = Map(w, h, fill_cell=C.floor_flagged)
 
     # Create walls
     for x in range(0, w):
-        M[x, 0] = cell_wall_stone(x, 0)
-        M[x, h-1] = cell_wall_stone(x, h-1)
+        M[x, 0] = C.wall_stone()
+        M[x, h-1] = C.wall_stone()
     for y in range(0, h):
-        M[0, y] = cell_wall_stone(x, 0)
-        M[w-1, y] = cell_wall_stone(w-1, y)
-    M[w//2, 0] = cell_door_closed(w//2, 0)
+        M[0, y] = C.wall_stone()
+        M[w-1, y] = C.wall_stone()
+    M[w//2, 0] = C.door_closed()
     
 
     # Place furniture and items in the room
     all_coord = [(w//2, 1)]
-    for item_class in (item_furniture_bed_single,
-            item_furniture_chest,
-            item_furniture_stool,
-            item_furniture_table,
-            item_furniture_torch):
+    for item_class in (T.furniture_bed_single,
+            T.furniture_chest,
+            T.furniture_chair,
+            T.furniture_table,
+            T.furniture_torch):
         while True:
-            x = random.randint(1,w-2)
-            y = random.randint(1,h-2)
+            x = random.randint(1, w-2)
+            y = random.randint(1, h-2)
             if (x, y) not in all_coord:
-                M[x, y].things.append(item_class())
-                all_coord.append((x,y))
+                M[x, y].put(item_class())
+                all_coord.append((x, y))
                 break
     return M
 
 def _room_torture(w=5, h=5):
-    M = Map(w, h, fill_cell=cell_floor_flagged)
+    M = Map(w, h, fill_cell=C.floor_flagged)
 
     # Create walls
     for x in range(0, w):
-        M[x, 0] = cell_wall_stone(x, 0)
-        M[x, h-1] = cell_wall_stone(x, h-1)
+        M[x, 0] = C.wall_stone()
+        M[x, h-1] = C.wall_stone()
     for y in range(0, h):
-        M[0, y] = cell_wall_stone(x, 0)
-        M[w-1, y] = cell_wall_stone(w-1, y)
-    M[w//2, h-1] = cell_door_closed(w//2, h-1)
-    M[w//2+1, h-2] = cell_stairs_up(w//2+1, h-2)
+        M[0, y] = C.wall_stone()
+        M[w-1, y] = C.wall_stone()
+    M[w//2, h-1] = C.door_closed()
+    M[w//2+1, h-2] = C.stairs_up()
     
 
     # Place furniture and items in the room
-    M[w//2, h//2].things.append(item_furniture_torture())
+    M[w//2, h//2].put(T.furniture_torture())
     all_coord = [(w//2, h-2), (w//2, h//2), (w//2+1, h-2)]
-    for item_class in (item_bones_human, item_bones_skull, item_tool_tongs):
+    for item_class in (T.bones, T.bones_skull, T.tool_tongs):
             while True:
-                x = random.randint(1,w-2)
-                y = random.randint(1,h-2)
+                x = random.randint(1, w-2)
+                y = random.randint(1, h-2)
                 if (x, y) not in all_coord:
-                    M[x, y].things.append(item_class())
-                    all_coord.append((x,y))
+                    M[x, y].put(item_class())
+                    all_coord.append((x, y))
                     break
     return M

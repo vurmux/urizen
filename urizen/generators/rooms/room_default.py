@@ -26,10 +26,10 @@ def room_default(w, h, wall_type, floor_type):
 
     # Create walls
     for x in range(0, w):
-        M[x, 0] = wall_type(x, 0)
-        M[x, h-1] = wall_type(x, h-1)
+        M[x, 0] = wall_type()
+        M[x, h-1] = wall_type()
     for y in range(0, h):
-        M[0, y] = wall_type(x, 0)
-        M[w-1, y] = wall_type(w-1, y)
+        M[0, y] = wall_type()
+        M[w-1, y] = wall_type()
 
     return M

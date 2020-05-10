@@ -19,7 +19,7 @@ class Map(object):
         self.w = w
         self.h = h
         self.tags = tags
-        self.cells = [[fill_cell(x, y) for x in range(w)] for y in range(h)]
+        self.cells = [[fill_cell() for x in range(w)] for y in range(h)]
     
     def get_size(self):
         return self.w, self.h
@@ -55,3 +55,59 @@ class Map(object):
     
     def vmirror(self):
         self.cells.reverse()
+
+    def bordering(self, x, y):
+        result = []
+        if x > 0:
+            result.append(self.cells[y][x-1])
+        if x < self.w - 1:
+            result.append(self.cells[y][x+1])
+        if y > 0:
+            result.append(self.cells[y-1][x])
+        if y < self.h - 1:
+            result.append(self.cells[y+1][x])
+        return result
+
+    def surrounding(self, x, y):
+        result = []
+        if x > 0:
+            result.append(self.cells[y][x-1])
+        if x < self.w - 1:
+            result.append(self.cells[y][x+1])
+        if y > 0:
+            result.append(self.cells[y-1][x])
+        if y < self.h - 1:
+            result.append(self.cells[y+1][x])
+        if x > 0 and y > 0:
+            result.append(self.cells[y-1][x-1])
+        if x < self.w - 1 and y > 0:
+            result.append(self.cells[y-1][x+1])
+        if x > 0 and y < self.h - 1:
+            result.append(self.cells[y+1][x-1])
+        if x < self.w - 1 and y < self.h - 1:
+            result.append(self.cells[y+1][x+1])
+        return result
+
+    def up_to(self, x, y):
+        if y <= 0:
+            return None
+        else:
+            return self.cells[y-1][x]
+
+    def down_to(self, x, y):
+        if y >= self.h - 1:
+            return None
+        else:
+            return self.cells[y+1][x]
+
+    def left_to(self, x, y):
+        if x <= 0:
+            return None
+        else:
+            return self.cells[y][x-1]
+
+    def right_to(self, x, y):
+        if x >= self.w - 1:
+            return None
+        else:
+            return self.cells[y][x+1]
