@@ -54,7 +54,6 @@ setup(
     packages=find_packages(exclude=['doc', 'res']),
     install_requires=[
         'noise',
-        'colorama',
         'Pillow'
     ],
     extras_require={
