@@ -10,3 +10,5 @@ from urizen.generators.buildings.building_prison import building_prison
 import urizen.generators.buildings.building_stables
 from urizen.generators.buildings.building_stables import building_stables
 
+import urizen.generators.buildings.building_bank
+from urizen.generators.buildings.building_bank import building_bank
