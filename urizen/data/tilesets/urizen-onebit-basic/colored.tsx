@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.2" tiledversion="1.3.3" name="urizen-basic-tileset" tilewidth="12" tileheight="12" spacing="1" margin="1" tilecount="400" columns="20">
+<tileset version="1.2" tiledversion="2020.04.10" name="urizen-basic-tileset" tilewidth="12" tileheight="12" spacing="1" margin="1" tilecount="400" columns="20">
  <editorsettings>
   <export target="colored.json" format="json"/>
  </editorsettings>
@@ -1013,7 +1013,7 @@
    <property name="group1" value="river"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
-   <property name="orientation" value="UD"/>
+   <property name="orientation" value="UR"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>

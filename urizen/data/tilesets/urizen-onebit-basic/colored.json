@@ -14,7 +14,7 @@
  "name":"urizen-basic-tileset",
  "spacing":1,
  "tilecount":400,
- "tiledversion":"1.3.3",
+ "tiledversion":"2020.04.10",
  "tileheight":12,
  "tiles":[
         {
@@ -3170,7 +3170,7 @@
                 {
                  "name":"orientation",
                  "type":"string",
-                 "value":"UD"
+                 "value":"UR"
                 }, 
                 {
                  "name":"type",
