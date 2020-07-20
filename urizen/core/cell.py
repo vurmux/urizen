@@ -51,3 +51,7 @@ class Cell(object):
             self.actors.append(entity)
         elif issubclass(entity.__class__, Thing):
             self.things.append(entity)
+    
+    @property
+    def cname(self):
+        return self.__class__.__name__
