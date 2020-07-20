@@ -29,8 +29,9 @@ POSITION_TABLE = {
 }
 
 
-def vg_tiled(M, scale=1, show=True, filepath=None):
+def vg_tiled(M, scale=1, show=True, filepath=None, seed=None):
 
+    random.seed(seed)
     im_w, im_h = M.get_size()
     im_w *= 12
     im_h *= 12
