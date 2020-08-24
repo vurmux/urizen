@@ -1637,10 +1637,10 @@
  </tile>
  <tile id="198">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="building"/>
+   <property name="group2" value="windmill"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="199">

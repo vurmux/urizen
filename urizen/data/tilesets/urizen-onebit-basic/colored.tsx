@@ -1789,42 +1789,46 @@
  </tile>
  <tile id="214">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
-   <property name="group3" value=""/>
+   <property name="group1" value="cell"/>
+   <property name="group2" value="building"/>
+   <property name="group3" value="smithy"/>
    <property name="type" value=""/>
   </properties>
  </tile>
  <tile id="215">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S1"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="216">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S2"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="217">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S3"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="218">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S4"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="219">
@@ -1959,34 +1963,38 @@
  </tile>
  <tile id="235">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S6"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="236">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S7"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="237">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S8"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="238">
   <properties>
-   <property name="group1" value=""/>
-   <property name="group2" value=""/>
+   <property name="group1" value="wall"/>
+   <property name="group2" value="tent"/>
    <property name="group3" value=""/>
-   <property name="type" value=""/>
+   <property name="orientation" value="S5"/>
+   <property name="type" value="cell"/>
   </properties>
  </tile>
  <tile id="239">
