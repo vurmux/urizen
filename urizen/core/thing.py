@@ -29,3 +29,7 @@ class Thing(object):
         for arg, value in kwargs.items():
             if arg in Thing.__dict__ and not arg.startswith('__'):
                 self.__dict__[arg] = value
+    
+    @property
+    def cname(self):
+        return self.__class__.__name__

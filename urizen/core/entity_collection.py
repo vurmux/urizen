@@ -63,7 +63,12 @@ def _get_tileset_tiles(tileset):
             current_dict = actors
         if tile_orientation != None:
             if name not in current_dict:
-                current_dict[name] = {}
+                orientation_type = (
+                    'square'
+                    if tile_orientation.startswith('S')
+                    else 'default'
+                )
+                current_dict[name] = {'orientation_type': orientation_type}
             if tile_index != None:
                 if tile_orientation not in current_dict[name]:
                     current_dict[name][tile_orientation] = [None] * 10
@@ -92,7 +97,7 @@ def _get_tileblock_color(tileblock):
     if type(tileblock) == list:
         tile = tileblock[0]
     elif type(tileblock) == dict:
-        tile = list(tileblock.values())[0][0]
+        tile = list(tileblock.values())[-1][0]
     for _, color_tuple in tile.getcolors():
         r, g, b, a = color_tuple
         if r + g + b > 0:

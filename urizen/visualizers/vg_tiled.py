@@ -10,22 +10,22 @@ from urizen.core.entity_collection import C
 
 
 POSITION_TABLE = {
-    '0000': 'H',
-    '0001': 'L',
-    '0010': 'R',
-    '0011': 'H',
-    '0100': 'U',
-    '0101': 'RD',
-    '0110': 'DL',
-    '0111': 'RDL',
-    '1000': 'D',
-    '1001': 'UR',
-    '1010': 'UL',
-    '1011': 'URL',
-    '1100': 'V',
-    '1101': 'URD',
-    '1110': 'UDL',
-    '1111': 'C',
+    (0, 0, 0, 0): 'H',
+    (0, 0, 0, 1): 'L',
+    (0, 0, 1, 0): 'R',
+    (0, 0, 1, 1): 'H',
+    (0, 1, 0, 0): 'U',
+    (0, 1, 0, 1): 'RD',
+    (0, 1, 1, 0): 'DL',
+    (0, 1, 1, 1): 'RDL',
+    (1, 0, 0, 0): 'D',
+    (1, 0, 0, 1): 'UR',
+    (1, 0, 1, 0): 'UL',
+    (1, 0, 1, 1): 'URL',
+    (1, 1, 0, 0): 'V',
+    (1, 1, 0, 1): 'URD',
+    (1, 1, 1, 0): 'UDL',
+    (1, 1, 1, 1): 'C',
 }
 
 
@@ -49,76 +49,61 @@ def vg_tiled(M, scale=1, show=True, filepath=None, seed=None):
             else:
                 im_element = cell
                 element_type = 'cell'
-            name = im_element.__class__.__name__
+            name = im_element.cname
 
             im_cell = None
             if type(im_element.sprite) == dict and element_type == 'cell':
-                up = '1' if M.up_to(xpos, ypos).__class__.__name__ == name else '0'
-                down = '1' if M.down_to(xpos, ypos).__class__.__name__ == name else '0'
-                left = '1' if M.left_to(xpos, ypos).__class__.__name__ == name else '0'
-                right = '1' if M.right_to(xpos, ypos).__class__.__name__ == name else '0'
-                position = POSITION_TABLE[up+down+left+right]
+                up = int(M.up_to(xpos, ypos).cname == name)
+                down = int(M.down_to(xpos, ypos).cname == name)
+                left = int(M.left_to(xpos, ypos).cname == name)
+                right = int(M.right_to(xpos, ypos).cname == name)
+                position = POSITION_TABLE[(up, down, left, right)]
                 im_cell = random.choice(im_element.sprite.get(position, C.unknown().sprite))
             elif type(im_element.sprite) == dict and element_type == 'thing':
-                up = (
-                    '1'
-                    if M.up_to(xpos, ypos) and
+                up = int(
+                    M.up_to(xpos, ypos) and
                     len(M.up_to(xpos, ypos).things) and
-                    M.up_to(xpos, ypos).things[0].__class__.__name__ == name
-                    else '0'
+                    M.up_to(xpos, ypos).things[0].cname == name
                 )
-                down = (
-                    '1'
-                    if M.down_to(xpos, ypos) and
+                down = int(
+                    M.down_to(xpos, ypos) and
                     len(M.down_to(xpos, ypos).things) and
-                    M.down_to(xpos, ypos).things[0].__class__.__name__ == name
-                    else '0'
+                    M.down_to(xpos, ypos).things[0].cname == name
                 )
-                left = (
-                    '1'
-                    if M.left_to(xpos, ypos) and
+                left = int(
+                    M.left_to(xpos, ypos) and
                     len(M.left_to(xpos, ypos).things) and
-                    M.left_to(xpos, ypos).things[0].__class__.__name__ == name
-                    else '0'
+                    M.left_to(xpos, ypos).things[0].cname == name
                 )
-                right = (
-                    '1' if M.right_to(xpos, ypos) and
+                right = int(
+                    M.right_to(xpos, ypos) and
                     len(M.right_to(xpos, ypos).things) and
-                    M.right_to(xpos, ypos).things[0].__class__.__name__ == name
-                    else '0'
+                    M.right_to(xpos, ypos).things[0].cname == name
                 )
-                position = POSITION_TABLE[up+down+left+right]
+                position = POSITION_TABLE[(up, down, left, right)]
                 im_cell = random.choice(im_element.sprite.get(position, C.unknown().sprite))
             elif type(im_element.sprite) == dict and element_type == 'actor':
-                up = (
-                    '1'
-                    if M.up_to(xpos, ypos) and
+                up = int(
+                    M.up_to(xpos, ypos) and
                     len(M.up_to(xpos, ypos).actors) and
-                    M.up_to(xpos, ypos).actors[0].__class__.__name__ == name
-                    else '0'
+                    M.up_to(xpos, ypos).actors[0].cname == name
                 )
-                down = (
-                    '1'
-                    if M.down_to(xpos, ypos) and
+                down = int(
+                    M.down_to(xpos, ypos) and
                     len(M.down_to(xpos, ypos).actors) and
-                    M.down_to(xpos, ypos).actors[0].__class__.__name__ == name
-                    else '0'
+                    M.down_to(xpos, ypos).actors[0].cname == name
                 )
-                left = (
-                    '1'
-                    if M.left_to(xpos, ypos) and
+                left = int(
+                    M.left_to(xpos, ypos) and
                     len(M.left_to(xpos, ypos).actors) and
-                    M.left_to(xpos, ypos).actors[0].__class__.__name__ == name
-                    else '0'
+                    M.left_to(xpos, ypos).actors[0].cname == name
                 )
-                right = (
-                    '1'
-                    if M.right_to(xpos, ypos) and
+                right = int(
+                    M.right_to(xpos, ypos) and
                     len(M.right_to(xpos, ypos).actors) and
-                    M.right_to(xpos, ypos).actors[0].__class__.__name__ == name
-                    else '0'
+                    M.right_to(xpos, ypos).actors[0].cname == name
                 )
-                position = POSITION_TABLE[up+down+left+right]
+                position = POSITION_TABLE[(up, down, left, right)]
                 im_cell = random.choice(im_element.sprite.get(position, C.unknown().sprite))
             elif type(im_element.sprite) == list:
                 im_cell = random.choice(im_element.sprite)
