@@ -3247,10 +3247,8 @@
  </tile>
  <tile id="386">
   <properties>
-   <property name="animation" type="bool" value="false"/>
-   <property name="frame" type="int" value="0"/>
    <property name="group1" value="screen"/>
-   <property name="group2" value="analysis"/>
+   <property name="group2" value="analysisfull"/>
    <property name="group3" value=""/>
    <property name="type" value="cell"/>
   </properties>

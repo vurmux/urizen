@@ -9,11 +9,14 @@ from PIL import Image
 from urizen.core.cell import Cell
 from urizen.core.thing import Thing
 from urizen.core.actor import Actor
+from urizen.core.tile import Tile
+from urizen.core.metatile import Metatile, DEFAULT
 
 
 TILESETS = [
     'urizen-onebit-basic',
-    'urizen-onebit-fantasy-medieval'
+    'urizen-onebit-fantasy-medieval',
+    'urizen-onebit-modern',
 ]
 
 
@@ -31,63 +34,63 @@ def _get_tileset_tiles(tileset):
     things = {}
     actors = {}
 
-    current_dict = {}
-    for tile in json_tileset['tiles']:
-        im_tile = _get_tile(im_tileset, json_tileset, tile['id'])
+    for tile_object in json_tileset['tiles']:
+        im_tile = _get_tile(im_tileset, json_tileset, tile_object['id'])
         tile_type = None
         tile_groups = [None, None, None]
         tile_index = None
+        tile_index_in_tileset = tile_object['id']
+        tile_frame = None
         tile_orientation = None
-        for att in tile['properties']:
+        for att in tile_object['properties']:
             if att['name'] == 'type':
                 tile_type = att['value']
-            if att['name'] == 'group1':
+            elif att['name'] == 'group1':
                 tile_groups[0] = att['value']
-            if att['name'] == 'group2':
+            elif att['name'] == 'group2':
                 tile_groups[1] = att['value']
-            if att['name'] == 'group3':
+            elif att['name'] == 'group3':
                 tile_groups[2] = att['value']
-            if att['name'] == 'index':
+            elif att['name'] == 'index':
                 tile_index = att['value']
-            if att['name'] == 'orientation':
+            elif att['name'] == 'orientation':
                 tile_orientation = att['value']
+            elif att['name'] == 'frame':
+                tile_frame = att['value']
         tile_groups = list(filter(lambda x: x, tile_groups))
         name = '_'.join(tile_groups)
+
+        tile = Tile(
+            name,
+            im_tile,
+            tileset,
+            tile_index_in_tileset,
+            index=tile_index,
+            orientation=tile_orientation,
+            frame=tile_frame
+        )
+
         if not name:
             continue
+        dst = {}
         if tile_type == 'cell':
-            current_dict = cells
+            dst = cells
         elif tile_type == 'thing':
-            current_dict = things
+            dst = things
         elif tile_type == 'actor':
-            current_dict = actors
-        if tile_orientation != None:
-            if name not in current_dict:
-                orientation_type = (
-                    'square'
-                    if tile_orientation.startswith('S')
-                    else 'default'
-                )
-                current_dict[name] = {'orientation_type': orientation_type}
-            if tile_index != None:
-                if tile_orientation not in current_dict[name]:
-                    current_dict[name][tile_orientation] = [None] * 10
-                current_dict[name][tile_orientation][tile_index] = im_tile
+            dst = actors
+        
+        if name not in dst:
+            if not tile_orientation:
+                geometry = DEFAULT
+            elif tile_orientation and tile_orientation.startswith('S'):
+                geometry = 'square'
             else:
-                current_dict[name][tile_orientation] = [im_tile]
-        elif tile_index != None:
-            if name not in current_dict:
-                current_dict[name] = [None] * 10
-            current_dict[name][tile_index] = im_tile
+                geometry = 'linear'
+            dst[name] = Metatile(name, geometry=geometry, animated=bool(tile_frame))
+            dst[name].add_tile(tile, index=tile_index, orientation=tile_orientation, frame=tile_frame)
         else:
-            current_dict[name] = [im_tile]
-    for current_dict in [cells, things, actors]:
-        for name in current_dict:
-            if type(current_dict[name]) == list:
-                current_dict[name] = list(filter(lambda x: x != None, current_dict[name]))
-            elif type(current_dict[name]) == dict:
-                for orientation in current_dict[name]:
-                    current_dict[name][orientation] = list(filter(lambda x: x != None, current_dict[name][orientation]))
+            dst[name].add_tile(tile, index=tile_index, orientation=tile_orientation, frame=tile_frame)
 
     return cells, things, actors
 
@@ -105,25 +108,26 @@ def _get_tileblock_color(tileblock):
     return '#000000'
 
 
-cell_tiles = {}
-thing_tiles = {}
-actor_tiles = {}
+cell_metatiles = {}
+thing_metatiles = {}
+actor_metatiles = {}
 
 for tileset in TILESETS:
     cells, things, actors = _get_tileset_tiles(tileset)
-    cell_tiles.update(cells)
-    thing_tiles.update(things)
-    actor_tiles.update(actors)
+    cell_metatiles.update(cells)
+    thing_metatiles.update(things)
+    actor_metatiles.update(actors)
+
 
 C = type('C', (object,), {
     name: type(
         name,
         (Cell,),
         {
-            'pixel_color': _get_tileblock_color(cell_tiles[name]),
-            'sprite': cell_tiles[name]
+            #'pixel_color': _get_tileblock_color(cell_metatiles[name]),
+            'metatile': cell_metatiles[name]
         }
-    ) for name in cell_tiles
+    ) for name in cell_metatiles
 })
 
 T = type('T', (object,), {
@@ -131,10 +135,10 @@ T = type('T', (object,), {
         name,
         (Thing,),
         {
-            'pixel_color': _get_tileblock_color(thing_tiles[name]),
-            'sprite': thing_tiles[name]
+            #'pixel_color': _get_tileblock_color(thing_metatiles[name]),
+            'metatile': thing_metatiles[name]
         }
-    ) for name in thing_tiles
+    ) for name in thing_metatiles
 })
 
 A = type('A', (object,), {
@@ -142,8 +146,8 @@ A = type('A', (object,), {
         name,
         (Actor,),
         {
-            'pixel_color': _get_tileblock_color(actor_tiles[name]),
-            'sprite': actor_tiles[name]
+            #'pixel_color': _get_tileblock_color(actor_metatiles[name]),
+            'metatile': actor_metatiles[name]
         }
-    ) for name in actor_tiles
+    ) for name in actor_metatiles
 })

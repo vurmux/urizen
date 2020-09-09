@@ -10057,16 +10057,6 @@
          "id":386,
          "properties":[
                 {
-                 "name":"animation",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
-                 "name":"frame",
-                 "type":"int",
-                 "value":0
-                }, 
-                {
                  "name":"group1",
                  "type":"string",
                  "value":"screen"
@@ -10074,7 +10064,7 @@
                 {
                  "name":"group2",
                  "type":"string",
-                 "value":"analysis"
+                 "value":"analysisfull"
                 }, 
                 {
                  "name":"group3",

@@ -11,7 +11,7 @@ class Thing(object):
     bg_color -- Background color in terminal visualizers
     fg_color -- Foreground color in terminal visualizers
     pixel_color -- Pixel color for pixel visualizers
-    sprite -- Image or image generator in graphical visualizers
+    metatile -- Metatile object for use in graphical visualizers
     passable -- Is the thing passable
     tags -- List of thing tags
     """
@@ -21,7 +21,7 @@ class Thing(object):
     bg_color = '#000000'
     fg_color = '#FFFFFF'
     pixel_color = '#000000'
-    sprite = None
+    metatile = None
     passable = True
     tags = []
 
