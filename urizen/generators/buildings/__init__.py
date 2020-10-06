@@ -12,3 +12,7 @@ from urizen.generators.buildings.building_stables import building_stables
 
 import urizen.generators.buildings.building_bank
 from urizen.generators.buildings.building_bank import building_bank
+
+import urizen.generators.buildings.building_shop
+from urizen.generators.buildings.building_shop import building_shop
+
