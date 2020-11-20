@@ -17,6 +17,7 @@ TILESETS = [
     'urizen-onebit-basic',
     'urizen-onebit-fantasy-medieval',
     'urizen-onebit-modern',
+    'urizen-onebit-fonts',
 ]
 
 
@@ -28,7 +29,7 @@ def _get_tile(im_tileset, json_tileset, index):
 
 def _get_tileset_tiles(tileset):
     im_tileset = Image.open(resource_stream('urizen', 'data/tilesets/{}/colored.png'.format(tileset)))
-    json_tileset = json.loads(resource_string('urizen', 'data/tilesets/{}/colored.json'.format(tileset)))
+    json_tileset = json.loads(resource_string('urizen', 'data/tilesets/{}/colored.json'.format(tileset)).decode('utf-8'))
 
     cells = {}
     things = {}
@@ -118,8 +119,7 @@ for tileset in TILESETS:
     thing_metatiles.update(things)
     actor_metatiles.update(actors)
 
-
-C = type('C', (object,), {
+C_attributes = {
     name: type(
         name,
         (Cell,),
@@ -128,9 +128,9 @@ C = type('C', (object,), {
             'metatile': cell_metatiles[name]
         }
     ) for name in cell_metatiles
-})
+}
 
-T = type('T', (object,), {
+T_attributes = {
     name: type(
         name,
         (Thing,),
@@ -139,9 +139,9 @@ T = type('T', (object,), {
             'metatile': thing_metatiles[name]
         }
     ) for name in thing_metatiles
-})
+}
 
-A = type('A', (object,), {
+A_attributes = {
     name: type(
         name,
         (Actor,),
@@ -150,4 +150,8 @@ A = type('A', (object,), {
             'metatile': actor_metatiles[name]
         }
     ) for name in actor_metatiles
-})
+}
+
+C = type('C', (object,), C_attributes)
+T = type('T', (object,), T_attributes)
+A = type('A', (object,), A_attributes)
