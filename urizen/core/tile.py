@@ -6,19 +6,14 @@ class Tile(object):
     Tile class
 
     Attributes:
-    image -- Image or image generator in graphical visualizers
+    name -- Metatile name
+    index -- Tile index
+    orientation -- Tile orientation for non-default metatile geometry
+    frame -- Tile frame for animated tiles
+    image -- PIL Image of a tile
+    tileset_name -- Name of the tileset
+    tileset_index -- Tile index in a tileset
     """
-
-    height = 1
-    terrain = None
-    cell_type = None
-    symbol = '.'
-    bg_color = '#000000'
-    fg_color = '#FFFFFF'
-    pixel_color = '#000000'
-    sprite = None
-    passable = False
-    tags = []
 
     def __init__(self, name, image, tileset_name, tileset_index, index=None, orientation=None, frame=None):
         self.name = name

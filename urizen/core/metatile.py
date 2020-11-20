@@ -9,7 +9,10 @@ class Metatile(object):
     Metatile class
 
     Attributes:
-    tiles -- Collection of tiles
+    name -- Metatile name
+    geometry -- Metatile geometry type. Can be 'default', 'linear' or 'square'
+    animated -- Flag: Can the metatile be animated
+    tiles -- Structure that stores all metatile tiles in a static format
     """
 
     def __init__(self, name, geometry=DEFAULT, animated=False):
@@ -23,6 +26,10 @@ class Metatile(object):
             self.tiles['static'][DEFAULT] = []
 
     def add_tile(self, tile, index=None, orientation=None, frame=None):
+        """
+        Add the tile in a `tiles` structure of the metatile depends on frame/index/orientation of a tile.
+        """
+
         def _insert_into(lst, i, item):
             if i >= len(lst):
                 lst += [None] * (i - len(lst) + 1)
