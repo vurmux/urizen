@@ -43,22 +43,22 @@ def select_tile_linear(M, xpos, ypos, metatile, metatile_type):
             tile = C.unknown().metatile.get_tiles()
     elif metatile_type == 'thing':
         up = int(
-            M.up_to(xpos, ypos) and
+            M.up_to(xpos, ypos) != None and
             len(M.up_to(xpos, ypos).things) and
             M.up_to(xpos, ypos).things[0].cname == name
         )
         down = int(
-            M.down_to(xpos, ypos) and
+            M.down_to(xpos, ypos) != None and
             len(M.down_to(xpos, ypos).things) and
             M.down_to(xpos, ypos).things[0].cname == name
         )
         left = int(
-            M.left_to(xpos, ypos) and
+            M.left_to(xpos, ypos) != None and
             len(M.left_to(xpos, ypos).things) and
             M.left_to(xpos, ypos).things[0].cname == name
         )
         right = int(
-            M.right_to(xpos, ypos) and
+            M.right_to(xpos, ypos) != None and
             len(M.right_to(xpos, ypos).things) and
             M.right_to(xpos, ypos).things[0].cname == name
         )
@@ -69,22 +69,22 @@ def select_tile_linear(M, xpos, ypos, metatile, metatile_type):
             tile = C.unknown().metatile.get_tiles()
     elif metatile_type == 'actor':
         up = int(
-            M.up_to(xpos, ypos) and
+            M.up_to(xpos, ypos) != None and
             len(M.up_to(xpos, ypos).actors) and
             M.up_to(xpos, ypos).actors[0].cname == name
         )
         down = int(
-            M.down_to(xpos, ypos) and
+            M.down_to(xpos, ypos) != None and
             len(M.down_to(xpos, ypos).actors) and
             M.down_to(xpos, ypos).actors[0].cname == name
         )
         left = int(
-            M.left_to(xpos, ypos) and
+            M.left_to(xpos, ypos) != None and
             len(M.left_to(xpos, ypos).actors) and
             M.left_to(xpos, ypos).actors[0].cname == name
         )
         right = int(
-            M.right_to(xpos, ypos) and
+            M.right_to(xpos, ypos) != None and
             len(M.right_to(xpos, ypos).actors) and
             M.right_to(xpos, ypos).actors[0].cname == name
         )
@@ -132,3 +132,4 @@ def vg_tiled(M, scale=1, show=True, filepath=None, seed=None):
         result_im.save(filepath)
     if show:
         result_im.show()
+    return result_im
