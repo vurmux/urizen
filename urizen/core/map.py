@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 
+import random
 from urizen.core.cell import Cell
 
 
@@ -111,3 +112,26 @@ class Map(object):
             return None
         else:
             return self.cells[y][x+1]
+
+    def scatter(self, x1, y1, x2, y2, entities):
+        if x2 < x1:
+            raise IndexError('Bounding box x2 < x1: {} < {}'.format(x2, x1))
+        if y2 < y1:
+            raise IndexError('Bounding box y2 < y1: {} < {}'.format(y2, y1))
+        if x1 < 0 or y1 < 0:
+            raise IndexError('Bounding box x1/y1 < 0: {} or {} < 0'.format(x1, y1))
+        if x2 > self.w or y2 > self.h:
+            raise IndexError('Bounding box x2/y2 is too big: {} > {} or {} > {}'.format(x2, self.w, y2, self.h))
+
+        free_cells = []
+        for y in range(y1, y2):
+            for x in range(x1, x2):
+                if not len(self.cells[y][x].actors) and not len(self.cells[y][x].things):
+                    free_cells.append((x, y))
+
+        sample_len = min(len(entities), len(free_cells))
+        cells_sample = random.sample(free_cells, sample_len)
+        entities_sample = random.sample(entities, sample_len)
+        for i in range(sample_len):
+            x, y = cells_sample[i]
+            self.cells[y][x].put(entities_sample[i])
