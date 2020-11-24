@@ -16,3 +16,5 @@ from urizen.generators.buildings.building_bank import building_bank
 import urizen.generators.buildings.building_shop
 from urizen.generators.buildings.building_shop import building_shop
 
+import urizen.generators.buildings.building_ruined_house
+from urizen.generators.buildings.building_ruined_house import building_ruined_house
