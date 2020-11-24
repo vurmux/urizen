@@ -113,7 +113,7 @@ class Map(object):
         else:
             return self.cells[y][x+1]
 
-    def scatter(self, x1, y1, x2, y2, entities):
+    def scatter(self, x1, y1, x2, y2, entities, exclude=[]):
         if x2 < x1:
             raise IndexError('Bounding box x2 < x1: {} < {}'.format(x2, x1))
         if y2 < y1:
@@ -124,9 +124,15 @@ class Map(object):
             raise IndexError('Bounding box x2/y2 is too big: {} > {} or {} > {}'.format(x2, self.w, y2, self.h))
 
         free_cells = []
+        exclude_with_tuple_coordinates = [(x, y) for x, y in exclude]
         for y in range(y1, y2):
             for x in range(x1, x2):
-                if not len(self.cells[y][x].actors) and not len(self.cells[y][x].things):
+                cell_is_free = (
+                    len(self.cells[y][x].actors) == 0 and
+                    len(self.cells[y][x].things) == 0 and
+                    (x, y) not in exclude_with_tuple_coordinates
+                )
+                if cell_is_free:
                     free_cells.append((x, y))
 
         sample_len = min(len(entities), len(free_cells))
