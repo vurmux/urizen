@@ -18,3 +18,6 @@ from urizen.generators.buildings.building_shop import building_shop
 
 import urizen.generators.buildings.building_ruined_house
 from urizen.generators.buildings.building_ruined_house import building_ruined_house
+
+import urizen.generators.buildings.building_inn
+from urizen.generators.buildings.building_inn import building_inn, building_roadhouse
