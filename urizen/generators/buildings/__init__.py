@@ -21,3 +21,6 @@ from urizen.generators.buildings.building_ruined_house import building_ruined_ho
 
 import urizen.generators.buildings.building_inn
 from urizen.generators.buildings.building_inn import building_inn, building_roadhouse
+
+import urizen.generators.buildings.building_house_medieval
+from urizen.generators.buildings.building_house_medieval import building_house_tworoom
