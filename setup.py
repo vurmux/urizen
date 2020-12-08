@@ -29,8 +29,8 @@ Simple example
     # Create a 50x50 size map using BSP algorithm
     M = uz.dungeon_bsp_tree(50, 50)
 
-    # And visualize it using Pillow
-    uz.vg_pillow_pixelated(M, scale=5)
+    # And visualize it using Pillow with Urizen tileset
+    uz.vg_tiled(M, scale=5)
 
 
 The result image will be automatically opened with a default image viewer.
@@ -65,6 +65,7 @@ setup(
     package_data={
         'urizen': ['data/*.json', 'data/*.png']
     },
+    include_package_data=True,
     entry_points={
         "console_scripts": [
             "urizen = urizen.gui.gui_pygame:main"
