@@ -15,10 +15,11 @@ class Metatile(object):
     tiles -- Structure that stores all metatile tiles in a static format
     """
 
-    def __init__(self, name, geometry=DEFAULT, animated=False):
+    def __init__(self, name, geometry=DEFAULT, animated=False, tags=[]):
         self.name = name
         self.geometry = geometry
         self.animated = animated
+        self.tags = tags
         self.tiles = {'static': {}}
         if self.animated:
             self.tiles['frames'] = {}

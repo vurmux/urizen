@@ -7,6 +7,7 @@
    <property name="group2" value="house"/>
    <property name="group3" value="oriental"/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -16,6 +17,7 @@
    <property name="group2" value="house"/>
    <property name="group3" value="oriental"/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -25,6 +27,7 @@
    <property name="group2" value="longhouse"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -34,6 +37,7 @@
    <property name="group2" value="longhouse"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -42,6 +46,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="house"/>
    <property name="group3" value="chimney"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -50,6 +55,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="tent"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -59,6 +65,7 @@
    <property name="group2" value="tower"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -67,6 +74,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="castle"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -76,6 +84,7 @@
    <property name="group2" value="tower"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -84,6 +93,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="city"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -92,6 +102,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="church"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -100,6 +111,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="mosque"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -109,6 +121,7 @@
    <property name="group2" value="palace"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -117,6 +130,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="pyramid"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -126,6 +140,7 @@
    <property name="group2" value="palace"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -134,6 +149,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="cathedral"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -142,6 +158,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="house"/>
    <property name="group3" value="clay"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -151,6 +168,7 @@
    <property name="group2" value="stars"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -160,6 +178,7 @@
    <property name="group2" value="stars"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -168,6 +187,7 @@
    <property name="group1" value="cave"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -176,6 +196,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="female"/>
    <property name="group3" value="fighter"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -184,6 +205,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="male"/>
    <property name="group3" value="fighter"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -192,6 +214,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="female"/>
    <property name="group3" value="mage"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -200,6 +223,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="male"/>
    <property name="group3" value="mage"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -208,6 +232,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="female"/>
    <property name="group3" value="archer"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -216,6 +241,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="male"/>
    <property name="group3" value="archer"/>
+   <property name="tags" value=""/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -224,6 +250,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -232,6 +259,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="magic"/>
    <property name="group3" value="empty"/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -240,6 +268,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="stamina"/>
    <property name="group3" value=""/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -248,6 +277,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="stamina"/>
    <property name="group3" value="empty"/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -256,6 +286,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="health"/>
    <property name="group3" value=""/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -264,6 +295,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="health"/>
    <property name="group3" value="empty"/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -272,6 +304,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="mana"/>
    <property name="group3" value=""/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -280,6 +313,7 @@
    <property name="group1" value="potion"/>
    <property name="group2" value="mana"/>
    <property name="group3" value="empty"/>
+   <property name="tags" value="default,item,potion"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -288,6 +322,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="arch"/>
    <property name="group3" value="oriental"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -296,6 +331,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="bell"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -304,6 +340,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="carriage"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -312,6 +349,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="wagon"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -320,6 +358,7 @@
    <property name="group1" value="column"/>
    <property name="group2" value="antique"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -328,6 +367,7 @@
    <property name="group1" value="column"/>
    <property name="group2" value="antique"/>
    <property name="group3" value="broken"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -336,7 +376,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="wizard"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="41">
@@ -344,7 +385,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="demon"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,demon"/>
   </properties>
  </tile>
  <tile id="42">
@@ -352,7 +394,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="soldier"/>
    <property name="group3" value="fighter"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,soldier"/>
   </properties>
  </tile>
  <tile id="43">
@@ -360,7 +403,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="soldier"/>
    <property name="group3" value="guard"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,soldier"/>
   </properties>
  </tile>
  <tile id="44">
@@ -368,7 +412,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="goblin"/>
    <property name="group3" value="rogue"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,goblin"/>
   </properties>
  </tile>
  <tile id="45">
@@ -376,7 +421,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="goblin"/>
    <property name="group3" value="merchant"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,goblin"/>
   </properties>
  </tile>
  <tile id="46">
@@ -384,7 +430,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="goblin"/>
    <property name="group3" value="fighter"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,goblin"/>
   </properties>
  </tile>
  <tile id="47">
@@ -392,7 +439,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="nomad"/>
    <property name="group3" value="archer"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,nomad"/>
   </properties>
  </tile>
  <tile id="48">
@@ -400,7 +448,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="nomad"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,nomad"/>
   </properties>
  </tile>
  <tile id="49">
@@ -408,7 +457,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="nomad"/>
    <property name="group3" value="shaman"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,nomad"/>
   </properties>
  </tile>
  <tile id="50">
@@ -416,7 +466,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="nomad"/>
    <property name="group3" value="fighter"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy,nomad"/>
   </properties>
  </tile>
  <tile id="51">
@@ -424,7 +475,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="skeleton"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="52">
@@ -432,7 +484,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="skeleton"/>
    <property name="group3" value="fighter"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="53">
@@ -440,7 +493,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="skeleton"/>
    <property name="group3" value="axeman"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="54">
@@ -448,7 +502,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="worgen"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="55">
@@ -456,7 +511,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="plaguedoctor"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy"/>
   </properties>
  </tile>
  <tile id="56">
@@ -464,7 +520,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="inquisitor"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy"/>
   </properties>
  </tile>
  <tile id="57">
@@ -472,7 +529,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="cyclops"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="58">
@@ -480,7 +538,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="monk"/>
    <property name="group3" value="prayer"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy"/>
   </properties>
  </tile>
  <tile id="59">
@@ -488,7 +547,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="monk"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy"/>
   </properties>
  </tile>
  <tile id="60">
@@ -496,7 +556,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="elf"/>
    <property name="group3" value="fighter"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,elf"/>
   </properties>
  </tile>
  <tile id="61">
@@ -504,7 +565,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="elf"/>
    <property name="group3" value="archer"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,elf"/>
   </properties>
  </tile>
  <tile id="62">
@@ -512,7 +574,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="mermaid"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="63">
@@ -520,7 +583,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="pirate"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="medieval,enemy"/>
   </properties>
  </tile>
  <tile id="64">
@@ -528,7 +592,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="genie"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="65">
@@ -536,7 +601,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="leprechaun"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="66">
@@ -544,7 +610,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="ogre"/>
    <property name="group3" value="twohead"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="67">
@@ -552,7 +619,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="ogre"/>
    <property name="group3" value="twohead"/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="68">
@@ -560,7 +628,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="golem"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="69">
@@ -568,7 +637,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="imp"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy,demon"/>
   </properties>
  </tile>
  <tile id="70">
@@ -576,7 +646,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="unicorn"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="71">
@@ -584,7 +655,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="centaur"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="72">
@@ -592,7 +664,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="slime"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="73">
@@ -600,7 +673,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="basilisk"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="74">
@@ -608,7 +682,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="cockatrice"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="75">
@@ -616,7 +691,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="beholder"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="76">
@@ -624,7 +700,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="ghost"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="77">
@@ -632,7 +709,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="lizardman"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="78">
@@ -640,7 +718,8 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="zombie"/>
    <property name="group3" value=""/>
-   <property name="type" value="actor"/>
+   <property name="tags" value=""/>
+   <property name="type" value="fantasy,enemy"/>
   </properties>
  </tile>
  <tile id="79">
@@ -657,6 +736,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -666,6 +746,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="H"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -675,6 +756,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -684,6 +766,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="V"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -693,6 +776,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="gate"/>
    <property name="orientation" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -702,6 +786,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="V"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -711,6 +796,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -720,6 +806,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="H"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -729,6 +816,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -738,6 +826,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -747,6 +836,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -756,6 +846,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -765,6 +856,7 @@
    <property name="group2" value="fort"/>
    <property name="group3" value="brick"/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -774,6 +866,7 @@
    <property name="group2" value="tower"/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -783,6 +876,7 @@
    <property name="group2" value="tower"/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -792,6 +886,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -801,6 +896,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -810,6 +906,7 @@
    <property name="group2" value="gate"/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -818,6 +915,7 @@
    <property name="group1" value="light"/>
    <property name="group2" value="lantern"/>
    <property name="group3" value="oil"/>
+   <property name="tags" value="medieval,item,light"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -826,6 +924,7 @@
    <property name="group1" value="light"/>
    <property name="group2" value="brazier"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,light"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -835,6 +934,7 @@
    <property name="group2" value="sword"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="4"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -844,6 +944,7 @@
    <property name="group2" value="sword"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="3"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -853,6 +954,7 @@
    <property name="group2" value="sword"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -862,6 +964,7 @@
    <property name="group2" value="sword"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -871,6 +974,7 @@
    <property name="group2" value="sword"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -879,6 +983,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sword"/>
    <property name="group3" value="rapier"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -887,6 +992,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sword"/>
    <property name="group3" value="cutlass"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -895,6 +1001,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sword"/>
    <property name="group3" value="machete"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -903,6 +1010,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sword"/>
    <property name="group3" value="katana"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -911,6 +1019,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sword"/>
    <property name="group3" value="saber"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -919,6 +1028,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="maul"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -927,6 +1037,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="mace"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -935,6 +1046,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="club"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -943,6 +1055,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="spear"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -951,6 +1064,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="halberd"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -959,6 +1073,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="axe"/>
    <property name="group3" value="great"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -967,6 +1082,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="axe"/>
    <property name="group3" value="hand"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -975,6 +1091,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="axe"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -983,6 +1100,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="dagger"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -991,6 +1109,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="dirk"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -999,6 +1118,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="bow"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1007,6 +1127,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="bow"/>
    <property name="group3" value="composite"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1015,6 +1136,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="arrow"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1023,6 +1145,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sling"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1031,6 +1154,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="crossbow"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1040,6 +1164,7 @@
    <property name="group2" value="stave"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="fantasy,magic,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1049,6 +1174,7 @@
    <property name="group2" value="stave"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="fantasy,magic,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1058,6 +1184,7 @@
    <property name="group2" value="stave"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="fantasy,magic,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1067,6 +1194,7 @@
    <property name="group2" value="stave"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="3"/>
+   <property name="tags" value="fantasy,magic,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1075,6 +1203,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="stave"/>
    <property name="group3" value="druid"/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1083,6 +1212,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="naginata"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,weapon"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1091,6 +1221,7 @@
    <property name="group1" value="shield"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,armor,shield"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1099,6 +1230,7 @@
    <property name="group1" value="shield"/>
    <property name="group2" value="tower"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,armor,shield"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1107,6 +1239,7 @@
    <property name="group1" value="shield"/>
    <property name="group2" value="buckler"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,armor,shield"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1116,6 +1249,7 @@
    <property name="group2" value="mail"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="medieval,item,armor,mail"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1125,6 +1259,7 @@
    <property name="group2" value="mail"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="medieval,item,armor,mail"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1134,6 +1269,7 @@
    <property name="group2" value="mail"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="medieval,item,armor,mail"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1143,6 +1279,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="medieval,item,armor,helmet"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1152,6 +1289,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="medieval,item,armor,helmet"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1161,6 +1299,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="medieval,item,armor,helmet"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1169,6 +1308,7 @@
    <property name="group1" value="magic"/>
    <property name="group2" value="pentagram"/>
    <property name="group3" value=""/>
+   <property name="tags" value="fantasy,magic"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1177,6 +1317,7 @@
    <property name="group1" value="magic"/>
    <property name="group2" value="orb"/>
    <property name="group3" value=""/>
+   <property name="tags" value="fantasy,magic,item"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1185,6 +1326,7 @@
    <property name="group1" value="magic"/>
    <property name="group2" value="portal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="fantasy,magic"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1193,6 +1335,7 @@
    <property name="group1" value="magic"/>
    <property name="group2" value="alchemisttable"/>
    <property name="group3" value=""/>
+   <property name="tags" value="fantasy,magic"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1201,6 +1344,7 @@
    <property name="group1" value="magic"/>
    <property name="group2" value="sparkles"/>
    <property name="group3" value=""/>
+   <property name="tags" value="fantasy,magic"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1209,6 +1353,7 @@
    <property name="group1" value="science"/>
    <property name="group2" value="globe"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1217,6 +1362,7 @@
    <property name="group1" value="science"/>
    <property name="group2" value="telescope"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1225,6 +1371,7 @@
    <property name="group1" value="scroll"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1233,6 +1380,7 @@
    <property name="group1" value="scroll"/>
    <property name="group2" value="text"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1242,6 +1390,7 @@
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="magic,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1251,6 +1400,7 @@
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="magic,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1260,6 +1410,7 @@
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="magic,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1268,6 +1419,7 @@
    <property name="group1" value="scroll"/>
    <property name="group2" value="curled"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,item,scroll"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1277,6 +1429,7 @@
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="magic,item,book"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1286,6 +1439,7 @@
    <property name="group2" value="magic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="magic,item,book"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1294,6 +1448,7 @@
    <property name="group1" value="trap"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="trap"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1302,6 +1457,7 @@
    <property name="group1" value="trap"/>
    <property name="group2" value="net"/>
    <property name="group3" value=""/>
+   <property name="tags" value="trap"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1310,6 +1466,7 @@
    <property name="group1" value="trap"/>
    <property name="group2" value="needles"/>
    <property name="group3" value=""/>
+   <property name="tags" value="trap"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1318,6 +1475,7 @@
    <property name="group1" value="trap"/>
    <property name="group2" value="spear"/>
    <property name="group3" value=""/>
+   <property name="tags" value="trap"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1326,6 +1484,7 @@
    <property name="group1" value="trap"/>
    <property name="group2" value="jaws"/>
    <property name="group3" value=""/>
+   <property name="tags" value="trap"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1334,6 +1493,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chest"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,furniture,chest"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1342,6 +1502,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chest"/>
    <property name="group3" value="open"/>
+   <property name="tags" value="medieval,furniture,chest"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1350,6 +1511,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chest"/>
    <property name="group3" value="full"/>
+   <property name="tags" value="medieval,furniture,chest"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1358,6 +1520,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chest"/>
    <property name="group3" value="profile"/>
+   <property name="tags" value="medieval,furniture,chest"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1366,6 +1529,7 @@
    <property name="group1" value="sign"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1374,6 +1538,7 @@
    <property name="group1" value="sign"/>
    <property name="group2" value="hinged"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1382,6 +1547,7 @@
    <property name="group1" value="sign"/>
    <property name="group2" value="pointer"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1390,6 +1556,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="fence"/>
    <property name="group3" value="left"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1398,6 +1565,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="fence"/>
    <property name="group3" value="right"/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1406,6 +1574,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="mannequin"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1414,6 +1583,7 @@
    <property name="group1" value="gallows"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1422,6 +1592,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="loom"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1430,6 +1601,7 @@
    <property name="group1" value="awning"/>
    <property name="group2" value="flat"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1438,6 +1610,7 @@
    <property name="group1" value="awning"/>
    <property name="group2" value="square"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1446,6 +1619,7 @@
    <property name="group1" value="awning"/>
    <property name="group2" value="showcase"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1454,6 +1628,7 @@
    <property name="group1" value="flag"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1462,6 +1637,7 @@
    <property name="group1" value="banner"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1470,6 +1646,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chandelier"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1478,6 +1655,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="throne"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1486,6 +1664,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="torture"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1495,6 +1674,7 @@
    <property name="group2" value="bust"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1503,6 +1683,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="statue"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1512,6 +1693,7 @@
    <property name="group2" value="bust"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1520,6 +1702,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="boiler"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1528,6 +1711,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="cauldron"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1536,6 +1720,7 @@
    <property name="group1" value="anvil"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1544,6 +1729,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="chimney"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1552,6 +1738,7 @@
    <property name="group1" value="well"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1560,6 +1747,7 @@
    <property name="group1" value="chapel"/>
    <property name="group2" value="cross"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1568,6 +1756,7 @@
    <property name="group1" value="chapel"/>
    <property name="group2" value="star"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1576,6 +1765,7 @@
    <property name="group1" value="gravestone"/>
    <property name="group2" value="star"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,gravestone"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1584,6 +1774,7 @@
    <property name="group1" value="gravestone"/>
    <property name="group2" value="obelisk"/>
    <property name="group3" value=""/>
+   <property name="tags" value="medieval,gravestone"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1592,6 +1783,7 @@
    <property name="group1" value="bell"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1600,6 +1792,7 @@
    <property name="group1" value="dining"/>
    <property name="group2" value="goblet"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1608,6 +1801,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="weaponrack"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1616,6 +1810,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="flowers"/>
    <property name="group3" value="pot"/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1624,6 +1819,7 @@
    <property name="group1" value="furniture"/>
    <property name="group2" value="flowers"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1632,6 +1828,7 @@
    <property name="group1" value="skullcane"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1640,6 +1837,7 @@
    <property name="group1" value="building"/>
    <property name="group2" value="windmill"/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1648,6 +1846,7 @@
    <property name="group1" value=""/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value=""/>
   </properties>
  </tile>

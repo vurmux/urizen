@@ -1,12 +1,4 @@
 { "columns":20,
- "editorsettings":
-    {
-     "export":
-        {
-         "format":"json",
-         "target":"urizen-fantasy-medieval-tileset.json"
-        }
-    },
  "image":"colored.png",
  "imageheight":131,
  "imagewidth":261,
@@ -41,6 +33,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -68,6 +65,11 @@
                  "name":"index",
                  "type":"int",
                  "value":1
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -99,6 +101,11 @@
                  "value":"L"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -128,6 +135,11 @@
                  "value":"R"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -152,6 +164,11 @@
                  "value":"chimney"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -172,6 +189,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -205,6 +227,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -225,6 +252,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -258,6 +290,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -278,6 +315,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -306,6 +348,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -326,6 +373,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -359,6 +411,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -379,6 +436,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -412,6 +474,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -432,6 +499,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -458,6 +530,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"clay"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -489,6 +566,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -518,6 +600,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -538,6 +625,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -566,6 +658,11 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"actor"
@@ -588,6 +685,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"fighter"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -614,6 +716,11 @@
                  "value":"mage"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"actor"
@@ -636,6 +743,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"mage"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -662,6 +774,11 @@
                  "value":"archer"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"actor"
@@ -684,6 +801,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"archer"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -710,6 +832,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -732,6 +859,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"empty"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
                 }, 
                 {
                  "name":"type",
@@ -758,6 +890,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -780,6 +917,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"empty"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
                 }, 
                 {
                  "name":"type",
@@ -806,6 +948,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -828,6 +975,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"empty"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
                 }, 
                 {
                  "name":"type",
@@ -854,6 +1006,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -876,6 +1033,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"empty"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"default,item,potion"
                 }, 
                 {
                  "name":"type",
@@ -902,6 +1064,11 @@
                  "value":"oriental"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -922,6 +1089,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -950,6 +1122,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -970,6 +1147,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -998,6 +1180,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -1020,6 +1207,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"broken"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -1046,9 +1238,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1070,9 +1267,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,demon"
                 }]
         }, 
         {
@@ -1094,9 +1296,14 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,soldier"
                 }]
         }, 
         {
@@ -1118,9 +1325,14 @@
                  "value":"guard"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,soldier"
                 }]
         }, 
         {
@@ -1142,9 +1354,14 @@
                  "value":"rogue"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,goblin"
                 }]
         }, 
         {
@@ -1166,9 +1383,14 @@
                  "value":"merchant"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,goblin"
                 }]
         }, 
         {
@@ -1190,9 +1412,14 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,goblin"
                 }]
         }, 
         {
@@ -1214,9 +1441,14 @@
                  "value":"archer"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,nomad"
                 }]
         }, 
         {
@@ -1238,9 +1470,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,nomad"
                 }]
         }, 
         {
@@ -1262,9 +1499,14 @@
                  "value":"shaman"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,nomad"
                 }]
         }, 
         {
@@ -1286,9 +1528,14 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy,nomad"
                 }]
         }, 
         {
@@ -1310,9 +1557,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1334,9 +1586,14 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1358,9 +1615,14 @@
                  "value":"axeman"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1382,9 +1644,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1406,9 +1673,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy"
                 }]
         }, 
         {
@@ -1430,9 +1702,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy"
                 }]
         }, 
         {
@@ -1454,9 +1731,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1478,9 +1760,14 @@
                  "value":"prayer"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy"
                 }]
         }, 
         {
@@ -1502,9 +1789,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy"
                 }]
         }, 
         {
@@ -1526,9 +1818,14 @@
                  "value":"fighter"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,elf"
                 }]
         }, 
         {
@@ -1550,9 +1847,14 @@
                  "value":"archer"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,elf"
                 }]
         }, 
         {
@@ -1574,9 +1876,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1598,9 +1905,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"medieval,enemy"
                 }]
         }, 
         {
@@ -1622,9 +1934,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1646,9 +1963,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1670,9 +1992,14 @@
                  "value":"twohead"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1694,9 +2021,14 @@
                  "value":"twohead"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1718,9 +2050,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1742,9 +2079,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy,demon"
                 }]
         }, 
         {
@@ -1766,9 +2108,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1790,9 +2137,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1814,9 +2166,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1838,9 +2195,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1862,9 +2224,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1886,9 +2253,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1910,9 +2282,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1934,9 +2311,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -1958,9 +2340,14 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
-                 "value":"actor"
+                 "value":"fantasy,enemy"
                 }]
         }, 
         {
@@ -2011,6 +2398,11 @@
                  "value":"RD"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2038,6 +2430,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"H"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2069,6 +2466,11 @@
                  "value":"DL"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2098,6 +2500,11 @@
                  "value":"V"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2123,6 +2530,11 @@
                 }, 
                 {
                  "name":"orientation",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -2156,6 +2568,11 @@
                  "value":"V"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2183,6 +2600,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"UR"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2214,6 +2636,11 @@
                  "value":"H"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2241,6 +2668,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"UL"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2272,6 +2704,11 @@
                  "value":"RD"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2299,6 +2736,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"DL"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2330,6 +2772,11 @@
                  "value":"UR"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2357,6 +2804,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"UL"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2388,6 +2840,11 @@
                  "value":"U"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2415,6 +2872,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"D"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2446,6 +2908,11 @@
                  "value":"H"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2473,6 +2940,11 @@
                  "name":"orientation",
                  "type":"string",
                  "value":"V"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
                 }, 
                 {
                  "name":"type",
@@ -2504,6 +2976,11 @@
                  "value":"H"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -2528,6 +3005,11 @@
                  "value":"oil"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,light"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2550,6 +3032,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,light"
                 }, 
                 {
                  "name":"type",
@@ -2581,6 +3068,11 @@
                  "value":4
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2608,6 +3100,11 @@
                  "name":"index",
                  "type":"int",
                  "value":3
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2639,6 +3136,11 @@
                  "value":2
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2666,6 +3168,11 @@
                  "name":"index",
                  "type":"int",
                  "value":1
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2697,6 +3204,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2719,6 +3231,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"rapier"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2745,6 +3262,11 @@
                  "value":"cutlass"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2767,6 +3289,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"machete"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2793,6 +3320,11 @@
                  "value":"katana"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2815,6 +3347,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"saber"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2841,6 +3378,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2863,6 +3405,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2889,6 +3436,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2911,6 +3463,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2937,6 +3494,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -2959,6 +3521,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"great"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -2985,6 +3552,11 @@
                  "value":"hand"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3007,6 +3579,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3033,6 +3610,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3055,6 +3637,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3081,6 +3668,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3103,6 +3695,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"composite"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3129,6 +3726,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3153,6 +3755,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3175,6 +3782,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3206,6 +3818,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3233,6 +3850,11 @@
                  "name":"index",
                  "type":"int",
                  "value":1
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3264,6 +3886,11 @@
                  "value":2
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3293,6 +3920,11 @@
                  "value":3
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3315,6 +3947,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"druid"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
                 }, 
                 {
                  "name":"type",
@@ -3341,6 +3978,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,weapon"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3363,6 +4005,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,shield"
                 }, 
                 {
                  "name":"type",
@@ -3389,6 +4036,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,shield"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3411,6 +4063,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,shield"
                 }, 
                 {
                  "name":"type",
@@ -3442,6 +4099,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,mail"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3469,6 +4131,11 @@
                  "name":"index",
                  "type":"int",
                  "value":1
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,mail"
                 }, 
                 {
                  "name":"type",
@@ -3500,6 +4167,11 @@
                  "value":2
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,mail"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3527,6 +4199,11 @@
                  "name":"index",
                  "type":"int",
                  "value":0
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,helmet"
                 }, 
                 {
                  "name":"type",
@@ -3558,6 +4235,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,helmet"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3587,6 +4269,11 @@
                  "value":2
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,armor,helmet"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3609,6 +4296,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic"
                 }, 
                 {
                  "name":"type",
@@ -3635,6 +4327,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic,item"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3657,6 +4354,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic"
                 }, 
                 {
                  "name":"type",
@@ -3683,6 +4385,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3707,6 +4414,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"fantasy,magic"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3727,6 +4439,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -3755,6 +4472,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3779,6 +4501,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,scroll"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3801,6 +4528,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,scroll"
                 }, 
                 {
                  "name":"type",
@@ -3832,6 +4564,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"magic,item,scroll"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3859,6 +4596,11 @@
                  "name":"index",
                  "type":"int",
                  "value":1
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"magic,item,scroll"
                 }, 
                 {
                  "name":"type",
@@ -3890,6 +4632,11 @@
                  "value":2
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"magic,item,scroll"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3912,6 +4659,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,item,scroll"
                 }, 
                 {
                  "name":"type",
@@ -3943,6 +4695,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"magic,item,book"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3972,6 +4729,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"magic,item,book"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -3994,6 +4756,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"trap"
                 }, 
                 {
                  "name":"type",
@@ -4020,6 +4787,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"trap"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4042,6 +4814,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"trap"
                 }, 
                 {
                  "name":"type",
@@ -4068,6 +4845,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"trap"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4090,6 +4872,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"trap"
                 }, 
                 {
                  "name":"type",
@@ -4116,6 +4903,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,furniture,chest"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4138,6 +4930,11 @@
                  "name":"group3",
                  "type":"string",
                  "value":"open"
+                }, 
+                {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,furniture,chest"
                 }, 
                 {
                  "name":"type",
@@ -4164,6 +4961,11 @@
                  "value":"full"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,furniture,chest"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4188,6 +4990,11 @@
                  "value":"profile"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,furniture,chest"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4208,6 +5015,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4236,6 +5048,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4256,6 +5073,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4284,6 +5106,11 @@
                  "value":"left"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4308,6 +5135,11 @@
                  "value":"right"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4328,6 +5160,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4356,6 +5193,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4376,6 +5218,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4404,6 +5251,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4424,6 +5276,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4452,6 +5309,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4472,6 +5334,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4500,6 +5367,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4520,6 +5392,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4548,6 +5425,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4568,6 +5450,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4601,6 +5488,11 @@
                  "value":0
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4621,6 +5513,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4654,6 +5551,11 @@
                  "value":1
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4674,6 +5576,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4702,6 +5609,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4722,6 +5634,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4750,6 +5667,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4770,6 +5692,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4798,6 +5725,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4818,6 +5750,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4846,6 +5783,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,gravestone"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4870,6 +5812,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":"medieval,gravestone"
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"cell"
@@ -4890,6 +5837,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4918,6 +5870,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4938,6 +5895,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -4966,6 +5928,11 @@
                  "value":"pot"
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -4986,6 +5953,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 
@@ -5014,6 +5986,11 @@
                  "value":""
                 }, 
                 {
+                 "name":"tags",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
                  "name":"type",
                  "type":"string",
                  "value":"thing"
@@ -5025,12 +6002,12 @@
                 {
                  "name":"group1",
                  "type":"string",
-                 "value":""
+                 "value":"building"
                 }, 
                 {
                  "name":"group2",
                  "type":"string",
-                 "value":""
+                 "value":"windmill"
                 }, 
                 {
                  "name":"group3",
@@ -5038,9 +6015,14 @@
                  "value":""
                 }, 
                 {
-                 "name":"type",
+                 "name":"tags",
                  "type":"string",
                  "value":""
+                }, 
+                {
+                 "name":"type",
+                 "type":"string",
+                 "value":"cell"
                 }]
         }, 
         {
@@ -5058,6 +6040,11 @@
                 }, 
                 {
                  "name":"group3",
+                 "type":"string",
+                 "value":""
+                }, 
+                {
+                 "name":"tags",
                  "type":"string",
                  "value":""
                 }, 

@@ -43,6 +43,7 @@ def _get_tileset_tiles(tileset):
         tile_index_in_tileset = tile_object['id']
         tile_frame = None
         tile_orientation = None
+        tile_tags = None
         for att in tile_object['properties']:
             if att['name'] == 'type':
                 tile_type = att['value']
@@ -58,6 +59,8 @@ def _get_tileset_tiles(tileset):
                 tile_orientation = att['value']
             elif att['name'] == 'frame':
                 tile_frame = att['value']
+            elif att['name'] == 'tags':
+                tile_tags = att['value'].split(',') if len(att['value']) else []
         tile_groups = list(filter(lambda x: x, tile_groups))
         name = '_'.join(tile_groups)
 
@@ -88,7 +91,7 @@ def _get_tileset_tiles(tileset):
                 geometry = 'square'
             else:
                 geometry = 'linear'
-            dst[name] = Metatile(name, geometry=geometry, animated=bool(tile_frame))
+            dst[name] = Metatile(name, geometry=geometry, animated=bool(tile_frame), tags=tile_tags)
             dst[name].add_tile(tile, index=tile_index, orientation=tile_orientation, frame=tile_frame)
         else:
             dst[name].add_tile(tile, index=tile_index, orientation=tile_orientation, frame=tile_frame)
@@ -119,16 +122,38 @@ for tileset in TILESETS:
     thing_metatiles.update(things)
     actor_metatiles.update(actors)
 
+@classmethod
+def filter_by_tags(cls, logic_function, tags_list, instantiate=False):
+    result = []
+    for name, entity in cls.__dict__.items():
+        if type(entity).__name__ != 'type':
+            continue
+        elif entity.__bases__[0] not in (Cell, Thing, Actor):
+            continue
+        if logic_function == 'and':
+            success = True
+            for tag in tags_list:
+                if not entity.tags or tag not in entity.tags:
+                    success = False
+                    break
+            if success:
+                result.append(entity)
+    if instantiate:
+        result = [entity() for entity in result]
+    return result
+
 C_attributes = {
     name: type(
         name,
         (Cell,),
         {
             #'pixel_color': _get_tileblock_color(cell_metatiles[name]),
-            'metatile': cell_metatiles[name]
+            'metatile': cell_metatiles[name],
+            'tags': cell_metatiles[name].tags,
         }
     ) for name in cell_metatiles
 }
+C_attributes['filter_by_tags'] = filter_by_tags
 
 T_attributes = {
     name: type(
@@ -136,10 +161,12 @@ T_attributes = {
         (Thing,),
         {
             #'pixel_color': _get_tileblock_color(thing_metatiles[name]),
-            'metatile': thing_metatiles[name]
+            'metatile': thing_metatiles[name],
+            'tags': thing_metatiles[name].tags,
         }
     ) for name in thing_metatiles
 }
+T_attributes['filter_by_tags'] = filter_by_tags
 
 A_attributes = {
     name: type(
@@ -147,10 +174,12 @@ A_attributes = {
         (Actor,),
         {
             #'pixel_color': _get_tileblock_color(actor_metatiles[name]),
-            'metatile': actor_metatiles[name]
+            'metatile': actor_metatiles[name],
+            'tags': actor_metatiles[name].tags,
         }
     ) for name in actor_metatiles
 }
+A_attributes['filter_by_tags'] = filter_by_tags
 
 C = type('C', (object,), C_attributes)
 T = type('T', (object,), T_attributes)

@@ -7,6 +7,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -16,6 +17,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -25,6 +27,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -34,6 +37,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -43,6 +47,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -52,6 +57,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -61,6 +67,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -70,6 +77,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -79,6 +87,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -88,6 +97,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -97,6 +107,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="C"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -106,6 +117,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -115,6 +127,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -124,6 +137,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -133,6 +147,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -142,6 +157,7 @@
    <property name="group2" value="cart"/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -151,6 +167,7 @@
    <property name="group2" value="cart"/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -159,6 +176,7 @@
    <property name="group1" value="railway"/>
    <property name="group2" value="station"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -167,6 +185,7 @@
    <property name="group1" value="streetlamp"/>
    <property name="group2" value="right"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -175,6 +194,7 @@
    <property name="group1" value="streetlamp"/>
    <property name="group2" value="left"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -184,6 +204,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -193,6 +214,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -202,6 +224,7 @@
    <property name="group2" value="crosswalk"/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -211,6 +234,7 @@
    <property name="group2" value="crosswalk"/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -220,6 +244,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -229,6 +254,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -238,6 +264,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -247,6 +274,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -256,6 +284,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -265,6 +294,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -274,6 +304,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -283,6 +314,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -292,6 +324,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="C"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -301,6 +334,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -310,6 +344,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -319,6 +354,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -328,6 +364,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -336,6 +373,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="diamond"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -344,6 +382,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="diamond"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -352,6 +391,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="human"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -361,6 +401,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -370,6 +411,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -379,6 +421,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value="crosswalk"/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -388,6 +431,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value="crosswalk"/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -397,6 +441,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -406,6 +451,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -415,6 +461,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -424,6 +471,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -433,6 +481,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="URL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -442,6 +491,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="RDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -451,6 +501,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="UDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -460,6 +511,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="URD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -469,6 +521,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="C"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -478,6 +531,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -487,6 +541,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -496,6 +551,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -505,6 +561,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -513,6 +570,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="triangle"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -521,6 +579,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="triangle"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -537,6 +596,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="round"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -545,6 +605,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="speed"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -553,6 +614,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="derestriction"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -561,6 +623,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="derestriction"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -569,6 +632,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="stop"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -577,6 +641,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="stop"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -585,6 +650,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="right"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -593,6 +659,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="left"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -601,6 +668,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="left"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -609,6 +677,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="right"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -617,6 +686,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="square"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -625,6 +695,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="square"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -633,6 +704,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="hospital"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -641,6 +713,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="hospital"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -649,6 +722,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="parking"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -657,6 +731,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="parking"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -665,6 +740,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="stoplight"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -673,6 +749,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="stoplight"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -681,6 +758,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="warning"/>
    <property name="group3" value="small"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -689,6 +767,7 @@
    <property name="group1" value="roadsign"/>
    <property name="group2" value="warning"/>
    <property name="group3" value="large"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -698,6 +777,7 @@
    <property name="group2" value="lorry"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -707,6 +787,7 @@
    <property name="group2" value="lorry"/>
    <property name="group3" value="911"/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -716,6 +797,7 @@
    <property name="group2" value="lorry"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -725,6 +807,7 @@
    <property name="group2" value="ambulance"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -734,6 +817,7 @@
    <property name="group2" value="ambulance"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -743,6 +827,7 @@
    <property name="group2" value="truck"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -752,6 +837,7 @@
    <property name="group2" value="truck"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -761,6 +847,7 @@
    <property name="group2" value="car"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -770,6 +857,7 @@
    <property name="group2" value="car"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -778,6 +866,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="car"/>
    <property name="group3" value="cabriolet"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -786,6 +875,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="car"/>
    <property name="group3" value="sedan"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -794,6 +884,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="car"/>
    <property name="group3" value="pickup"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -803,6 +894,7 @@
    <property name="group2" value="car"/>
    <property name="group3" value="vertical"/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -812,6 +904,7 @@
    <property name="group2" value="car"/>
    <property name="group3" value="vertical"/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -820,6 +913,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="carriage"/>
    <property name="group3" value="tank"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -828,6 +922,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="carriage"/>
    <property name="group3" value="luxury"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -836,6 +931,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="carriage"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -844,6 +940,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="carriage"/>
    <property name="group3" value="coal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -853,6 +950,7 @@
    <property name="group2" value="locomotive"/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -862,6 +960,7 @@
    <property name="group2" value="locomotive"/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -870,6 +969,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="motorcycle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -878,6 +978,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="bicycle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -886,6 +987,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="tank"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -894,6 +996,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="helicopter"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -902,6 +1005,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="plane"/>
    <property name="group3" value="vertical"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -910,6 +1014,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="plane"/>
    <property name="group3" value="horizontal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -918,6 +1023,7 @@
    <property name="group1" value="transport"/>
    <property name="group2" value="warship"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -927,6 +1033,7 @@
    <property name="group2" value="rocket"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -936,6 +1043,7 @@
    <property name="group2" value="rocket"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -945,6 +1053,7 @@
    <property name="group2" value="residential"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -954,6 +1063,7 @@
    <property name="group2" value="residential"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -963,6 +1073,7 @@
    <property name="group2" value="business"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -972,6 +1083,7 @@
    <property name="group2" value="business"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -981,6 +1093,7 @@
    <property name="group2" value="historic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -990,6 +1103,7 @@
    <property name="group2" value="historic"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -998,6 +1112,7 @@
    <property name="group1" value="district"/>
    <property name="group2" value="administrative"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1007,6 +1122,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1016,6 +1132,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1024,6 +1141,7 @@
    <property name="group1" value="radiotower"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1032,6 +1150,7 @@
    <property name="group1" value="gasstation"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1041,6 +1160,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="4"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1050,6 +1170,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="3"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1059,6 +1180,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1068,6 +1190,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1077,6 +1200,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1086,6 +1210,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1095,6 +1220,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1104,6 +1230,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1113,6 +1240,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="3"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1122,6 +1250,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1131,6 +1260,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1140,6 +1270,7 @@
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1149,6 +1280,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value="invertical"/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1158,6 +1290,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value="invertical"/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1168,6 +1301,7 @@
    <property name="group3" value="invertical"/>
    <property name="index" type="int" value="0"/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1178,6 +1312,7 @@
    <property name="group3" value="invertical"/>
    <property name="index" type="int" value="1"/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1187,6 +1322,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value="inverted"/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1196,6 +1332,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value="inverted"/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1205,6 +1342,7 @@
    <property name="group2" value="highrise"/>
    <property name="group3" value="inverted"/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1213,6 +1351,7 @@
    <property name="group1" value="barrel"/>
    <property name="group2" value="metal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1221,6 +1360,7 @@
    <property name="group1" value="powerstation"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1229,6 +1369,7 @@
    <property name="group1" value="electricpole"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1237,6 +1378,7 @@
    <property name="group1" value="transformer"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1245,6 +1387,7 @@
    <property name="group1" value="effect"/>
    <property name="group2" value="electricity"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1253,6 +1396,7 @@
    <property name="group1" value="battery"/>
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1261,6 +1405,7 @@
    <property name="group1" value="battery"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1269,6 +1414,7 @@
    <property name="group1" value="accumulator"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1277,6 +1423,7 @@
    <property name="group1" value="wire"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1285,6 +1432,7 @@
    <property name="group1" value="firstaid"/>
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1293,6 +1441,7 @@
    <property name="group1" value="firstaid"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1301,6 +1450,7 @@
    <property name="group1" value="pill"/>
    <property name="group2" value="diagonal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1309,6 +1459,7 @@
    <property name="group1" value="pill"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1317,6 +1468,7 @@
    <property name="group1" value="pellet"/>
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1325,6 +1477,7 @@
    <property name="group1" value="pellet"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1333,6 +1486,7 @@
    <property name="group1" value="syringe"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1341,6 +1495,7 @@
    <property name="group1" value="syringe"/>
    <property name="group2" value="empty"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1349,6 +1504,7 @@
    <property name="group1" value="syringe"/>
    <property name="group2" value="empty"/>
    <property name="group3" value="vertical"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1357,6 +1513,7 @@
    <property name="group1" value="testtube"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1365,6 +1522,7 @@
    <property name="group1" value="pillsjar"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1373,6 +1531,7 @@
    <property name="group1" value="patch"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1381,6 +1540,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="metal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,wall"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1389,6 +1549,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="metal"/>
    <property name="group3" value="nailed"/>
+   <property name="tags" value="modern,wall"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1397,6 +1558,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="metal"/>
    <property name="group3" value="venting"/>
+   <property name="tags" value="modern,wall"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1405,6 +1567,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="fence"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,wall"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1413,6 +1576,7 @@
    <property name="group1" value="wall"/>
    <property name="group2" value="glass"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,wall"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1421,6 +1585,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="metal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1429,6 +1594,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="hatch"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1437,6 +1603,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="hatch"/>
    <property name="group3" value="nailed"/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1445,6 +1612,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="hatch"/>
    <property name="group3" value="inverted"/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1453,6 +1621,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="nailed"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1461,6 +1630,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="tiles"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1469,6 +1639,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="tiles"/>
    <property name="group3" value="detailed"/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1477,6 +1648,7 @@
    <property name="group1" value="floor"/>
    <property name="group2" value="tiles"/>
    <property name="group3" value="wooden"/>
+   <property name="tags" value="modern,floor"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1485,6 +1657,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="metal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1493,6 +1666,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="peephole"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1501,6 +1675,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="window"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1509,6 +1684,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="valve"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1517,6 +1693,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="bars"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1525,6 +1702,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="railing"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1533,6 +1711,7 @@
    <property name="group1" value="door"/>
    <property name="group2" value="open"/>
    <property name="group3" value="metal"/>
+   <property name="tags" value="modern,door"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -1541,6 +1720,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="bodyguard"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1549,6 +1729,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="bodyguard"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1557,6 +1738,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="scientist"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1565,6 +1747,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="scientist"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1573,6 +1756,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="business"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1581,6 +1765,7 @@
    <property name="group1" value="player"/>
    <property name="group2" value="business"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1589,6 +1774,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="worker"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1597,6 +1783,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="military"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1605,6 +1792,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="business"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1613,6 +1801,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="bandit"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="western"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1621,6 +1810,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="business"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1629,6 +1819,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="bandit"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="western"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1637,6 +1828,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="police"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1645,6 +1837,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="scientist"/>
    <property name="group3" value="male"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1653,6 +1846,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="scientist"/>
    <property name="group3" value="female"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1661,6 +1855,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="bodyguard"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1669,6 +1864,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="astronaut"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1677,6 +1873,7 @@
    <property name="group1" value="npc"/>
    <property name="group2" value="skateboard"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1685,6 +1882,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="cowboy"/>
    <property name="group3" value=""/>
+   <property name="tags" value="western"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1693,6 +1891,7 @@
    <property name="group1" value="enemy"/>
    <property name="group2" value="dead"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="actor"/>
   </properties>
  </tile>
@@ -1702,6 +1901,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1711,6 +1911,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1720,6 +1921,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1729,6 +1931,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1738,6 +1941,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1747,6 +1951,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1756,6 +1961,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1765,6 +1971,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1773,6 +1980,7 @@
    <property name="group1" value="cigarettespack"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1781,6 +1989,7 @@
    <property name="group1" value="jam"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1789,6 +1998,7 @@
    <property name="group1" value="washer"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1797,6 +2007,7 @@
    <property name="group1" value="washbasin"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1805,6 +2016,7 @@
    <property name="group1" value="refrigerator"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1813,6 +2025,7 @@
    <property name="group1" value="microwave"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1821,6 +2034,7 @@
    <property name="group1" value="stove"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1829,6 +2043,7 @@
    <property name="group1" value="sink"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1837,6 +2052,7 @@
    <property name="group1" value="safe"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1869,6 +2085,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="pistol"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1877,6 +2094,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="revolver"/>
    <property name="group3" value=""/>
+   <property name="tags" value="western"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1885,6 +2103,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="derringer"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1893,6 +2112,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="flintlock"/>
    <property name="group3" value=""/>
+   <property name="tags" value="western"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1901,6 +2121,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="taser"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1909,6 +2130,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="shotgun"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1917,6 +2139,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="uzi"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1925,6 +2148,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sniperrifle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1933,6 +2157,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="autorifle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1941,6 +2166,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="rocketlauncher"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1949,6 +2175,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="assaultrifle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1957,6 +2184,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="autorifle"/>
    <property name="group3" value="diagonal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1965,6 +2193,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="rocketlauncher"/>
    <property name="group3" value="diagonal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1973,6 +2202,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="shotgun"/>
    <property name="group3" value="diagonal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1981,6 +2211,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="sniperrifle"/>
    <property name="group3" value="diagonal"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1989,6 +2220,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="baton"/>
    <property name="group3" value="telescopic"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -1997,6 +2229,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="baseballbat"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2005,6 +2238,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="knuckleduster"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2013,6 +2247,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="baton"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2021,6 +2256,7 @@
    <property name="group1" value="weapon"/>
    <property name="group2" value="chainsaw"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2029,6 +2265,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="flashbang"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2037,6 +2274,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="bomb"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2045,6 +2283,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="molotov"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2053,6 +2292,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="shell"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2061,6 +2301,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="emp"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2069,6 +2310,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="grenade"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2077,6 +2319,7 @@
    <property name="group1" value="explosive"/>
    <property name="group2" value="dynamite"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2085,6 +2328,7 @@
    <property name="group1" value="bullet"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2093,6 +2337,7 @@
    <property name="group1" value="bullet"/>
    <property name="group2" value="shotgun"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2101,6 +2346,7 @@
    <property name="group1" value="bullet"/>
    <property name="group2" value="rifle"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2109,6 +2355,7 @@
    <property name="group1" value="ammobox"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2117,6 +2364,7 @@
    <property name="group1" value="sniperscope"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2125,6 +2373,7 @@
    <property name="group1" value="helmet"/>
    <property name="group2" value="astronaut"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2133,6 +2382,7 @@
    <property name="group1" value="tinhat"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2141,6 +2391,7 @@
    <property name="group1" value="bodyarmor"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2149,6 +2400,7 @@
    <property name="group1" value="effect"/>
    <property name="group2" value="radiation"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2189,6 +2441,7 @@
    <property name="group1" value="floppy"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2197,6 +2450,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2205,6 +2459,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="hole"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2213,6 +2468,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="red"/>
    <property name="group3" value="a"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2221,6 +2477,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="blue"/>
    <property name="group3" value="b"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2229,6 +2486,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="green"/>
    <property name="group3" value="c"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2237,6 +2495,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="red"/>
    <property name="group3" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2245,6 +2504,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="blue"/>
    <property name="group3" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2253,6 +2513,7 @@
    <property name="group1" value="accesscard"/>
    <property name="group2" value="green"/>
    <property name="group3" value="3"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2262,6 +2523,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2271,6 +2533,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2279,6 +2542,7 @@
    <property name="group1" value="chip"/>
    <property name="group2" value="rounded"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2287,6 +2551,7 @@
    <property name="group1" value="idcard"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2295,6 +2560,7 @@
    <property name="group1" value="plasticcard"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2303,6 +2569,7 @@
    <property name="group1" value="cd"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2311,6 +2578,7 @@
    <property name="group1" value="boombox"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2319,6 +2587,7 @@
    <property name="group1" value="tape"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2327,6 +2596,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="multitool"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2336,6 +2606,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2345,6 +2616,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2354,6 +2626,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2363,6 +2636,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2372,6 +2646,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2381,6 +2656,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="3"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2389,6 +2665,7 @@
    <property name="group1" value="oscilloscope"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2397,6 +2674,7 @@
    <property name="group1" value="radio"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2405,6 +2683,7 @@
    <property name="group1" value="camera"/>
    <property name="group2" value="snapshot"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2413,6 +2692,7 @@
    <property name="group1" value="camera"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2421,6 +2701,7 @@
    <property name="group1" value="cellphone"/>
    <property name="group2" value="old"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2429,6 +2710,7 @@
    <property name="group1" value="cellphone"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2437,6 +2719,7 @@
    <property name="group1" value="smartphone"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2445,6 +2728,7 @@
    <property name="group1" value="headset"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2453,6 +2737,7 @@
    <property name="group1" value="phone"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2461,6 +2746,7 @@
    <property name="group1" value="phone"/>
    <property name="group2" value="disk"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2469,6 +2755,7 @@
    <property name="group1" value="tv"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2477,6 +2764,7 @@
    <property name="group1" value="gameconsole"/>
    <property name="group2" value="gameboy"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2485,6 +2773,7 @@
    <property name="group1" value="headphones"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2493,6 +2782,7 @@
    <property name="group1" value="microphone"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2501,6 +2791,7 @@
    <property name="group1" value="calendar"/>
    <property name="group2" value="numbers"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2509,6 +2800,7 @@
    <property name="group1" value="calendar"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2517,6 +2809,7 @@
    <property name="group1" value="watch"/>
    <property name="group2" value="wrist"/>
    <property name="group3" value="luxury"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2525,6 +2818,7 @@
    <property name="group1" value="clock"/>
    <property name="group2" value="wall"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2533,6 +2827,7 @@
    <property name="group1" value="watch"/>
    <property name="group2" value="wrist"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2541,6 +2836,7 @@
    <property name="group1" value="watch"/>
    <property name="group2" value="pocket"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2549,6 +2845,7 @@
    <property name="group1" value="lever"/>
    <property name="group2" value="right"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2557,6 +2854,7 @@
    <property name="group1" value="lever"/>
    <property name="group2" value="left"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2565,6 +2863,7 @@
    <property name="group1" value="lightbulb"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2573,6 +2872,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="lighter"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2581,6 +2881,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="extinguisher"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2589,6 +2890,7 @@
    <property name="group1" value="magnet"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2598,6 +2900,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2607,6 +2910,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2615,6 +2919,7 @@
    <property name="group1" value="sprinkler"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2623,6 +2928,7 @@
    <property name="group1" value="gameconsole"/>
    <property name="group2" value="ds"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2631,6 +2937,7 @@
    <property name="group1" value="gamepad"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2639,6 +2946,7 @@
    <property name="group1" value="gamepad"/>
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2647,6 +2955,7 @@
    <property name="group1" value="calculator"/>
    <property name="group2" value="inverted"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2655,6 +2964,7 @@
    <property name="group1" value="calculator"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2663,6 +2973,7 @@
    <property name="group1" value="banknote"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2671,6 +2982,7 @@
    <property name="group1" value="banknote"/>
    <property name="group2" value="pack"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2679,6 +2991,7 @@
    <property name="group1" value="bathtub"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2687,6 +3000,7 @@
    <property name="group1" value="toilet"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2695,6 +3009,7 @@
    <property name="group1" value="dumbbell"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2703,6 +3018,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="ducttape"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2711,6 +3027,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="handcuffs"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2719,6 +3036,7 @@
    <property name="group1" value="camera"/>
    <property name="group2" value="surveillance"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2727,6 +3045,7 @@
    <property name="group1" value="key"/>
    <property name="group2" value="car"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2735,6 +3054,7 @@
    <property name="group1" value="balloon"/>
    <property name="group2" value="oxygen"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2743,6 +3063,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="crowbar"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2751,6 +3072,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="wrench"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2759,6 +3081,7 @@
    <property name="group1" value="tool"/>
    <property name="group2" value="screwdriver"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2767,6 +3090,7 @@
    <property name="group1" value="sunglasses"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2775,6 +3099,7 @@
    <property name="group1" value="pen"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2783,6 +3108,7 @@
    <property name="group1" value="pencil"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2791,6 +3117,7 @@
    <property name="group1" value="umbrella"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2799,6 +3126,7 @@
    <property name="group1" value="lamp"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2807,6 +3135,7 @@
    <property name="group1" value="trashcan"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2815,6 +3144,7 @@
    <property name="group1" value="shoppingcart"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2823,6 +3153,7 @@
    <property name="group1" value="toolbox"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2831,6 +3162,7 @@
    <property name="group1" value="canister"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2840,6 +3172,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2849,6 +3182,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S2"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2858,6 +3192,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S3"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2867,6 +3202,7 @@
    <property name="group2" value="text"/>
    <property name="group3" value="green"/>
    <property name="index" type="int" value="0"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2876,6 +3212,7 @@
    <property name="group2" value="text"/>
    <property name="group3" value="green"/>
    <property name="index" type="int" value="1"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2884,6 +3221,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="terminal"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2892,6 +3230,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="bsod"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2900,6 +3239,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="blueprint"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2910,6 +3250,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="pulse"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2920,6 +3261,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="pulse"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2930,6 +3272,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="pulse"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2940,6 +3283,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="pulse"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2950,6 +3294,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="radar"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2960,6 +3305,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="radar"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2970,6 +3316,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="radar"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2980,6 +3327,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="radar"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -2988,6 +3336,7 @@
    <property name="group1" value="systemunit"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -2996,6 +3345,7 @@
    <property name="group1" value="monitor"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3004,6 +3354,7 @@
    <property name="group1" value="monitor"/>
    <property name="group2" value="wide"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3012,6 +3363,7 @@
    <property name="group1" value="monitor"/>
    <property name="group2" value="rounded"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3021,6 +3373,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S4"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3030,6 +3383,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3039,6 +3393,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S5"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3047,6 +3402,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="dossier"/>
    <property name="group3" value="orange"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3055,6 +3411,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="text"/>
    <property name="group3" value="orange"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3063,6 +3420,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="video"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3071,6 +3429,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="broken"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3079,6 +3438,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="location"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3089,6 +3449,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="humanstatus"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3099,6 +3460,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="humanstatus"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3109,6 +3471,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="humanstatus"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3119,6 +3482,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="humanstatus"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3129,6 +3493,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="terminal"/>
    <property name="group3" value="input"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3139,6 +3504,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="terminal"/>
    <property name="group3" value="input"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3149,6 +3515,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="terminal"/>
    <property name="group3" value="input"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3159,6 +3526,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="terminal"/>
    <property name="group3" value="input"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3167,6 +3535,7 @@
    <property name="group1" value="computermouse"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3175,6 +3544,7 @@
    <property name="group1" value="keyboard"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3183,6 +3553,7 @@
    <property name="group1" value="printer"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3191,6 +3562,7 @@
    <property name="group1" value="notebook"/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="thing"/>
   </properties>
  </tile>
@@ -3200,6 +3572,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S6"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3209,6 +3582,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S7"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3218,6 +3592,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="S8"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3226,6 +3601,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="dna"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3234,6 +3610,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="globe"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3242,6 +3619,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="chart"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3250,6 +3628,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="analysisfull"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3258,6 +3637,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="pulse"/>
    <property name="group3" value="dead"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3268,6 +3648,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="rotating"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3278,6 +3659,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="rotating"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3288,6 +3670,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="rotating"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3298,6 +3681,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="rotating"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3308,6 +3692,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="analysis"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3318,6 +3703,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="analysis"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3328,6 +3714,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="analysis"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3338,6 +3725,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="analysis"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3348,6 +3736,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="floatingtext"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3358,6 +3747,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="floatingtext"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3368,6 +3758,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="floatingtext"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3378,6 +3769,7 @@
    <property name="group1" value="screen"/>
    <property name="group2" value="floatingtext"/>
    <property name="group3" value=""/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3387,6 +3779,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3396,6 +3789,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3405,6 +3799,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="U"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3414,6 +3809,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="D"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3423,6 +3819,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="L"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3432,6 +3829,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="R"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3441,6 +3839,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3450,6 +3849,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3459,6 +3859,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UDL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3468,6 +3869,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="URD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3477,6 +3879,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="C"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3486,6 +3889,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="RD"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3495,6 +3899,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="DL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3504,6 +3909,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UR"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3513,6 +3919,7 @@
    <property name="group2" value=""/>
    <property name="group3" value=""/>
    <property name="orientation" value="UL"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3522,6 +3929,7 @@
    <property name="group2" value="faucet"/>
    <property name="group3" value=""/>
    <property name="orientation" value="V"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3531,6 +3939,7 @@
    <property name="group2" value="faucet"/>
    <property name="group3" value=""/>
    <property name="orientation" value="H"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3540,6 +3949,7 @@
    <property name="group2" value="faucet"/>
    <property name="group3" value=""/>
    <property name="orientation" value="C"/>
+   <property name="tags" value="modern"/>
    <property name="type" value="cell"/>
   </properties>
  </tile>
@@ -3556,6 +3966,7 @@
    <property name="group1" value=""/>
    <property name="group2" value=""/>
    <property name="group3" value=""/>
+   <property name="tags" value=""/>
    <property name="type" value=""/>
   </properties>
  </tile>
