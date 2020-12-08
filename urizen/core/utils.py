@@ -32,6 +32,8 @@ def construct_generators_tree():
     proto_gens = find_generators(uz)
     gen_tree = {}
     for gen_path, gen_list in proto_gens.items():
+        if '.' not in gen_path:
+            continue
         gen_type, gen_module_name = gen_path.split('.')
         if gen_type not in gen_tree:
             gen_tree[gen_type] = {}

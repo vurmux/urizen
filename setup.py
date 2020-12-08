@@ -30,7 +30,7 @@ Simple example
     M = uz.dungeon_bsp_tree(50, 50)
 
     # And visualize it using Pillow with Urizen tileset
-    uz.vg_tiled(M, scale=5)
+    uz.vg_tiled(M, scale=3)
 
 
 The result image will be automatically opened with a default image viewer.
@@ -38,7 +38,7 @@ The result image will be automatically opened with a default image viewer.
 
 setup(
     name='urizen',
-    version='0.2.0',
+    version='0.2.4',
     description='Roguelike world generation library',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/vurmux/urizen',
@@ -51,7 +51,7 @@ setup(
         'Programming Language :: Python :: 3 :: Only',
     ],
     keywords='',
-    packages=find_packages(exclude=['doc', 'res']),
+    packages=find_packages(exclude=['doc', 'res', 'build', 'dist']),
     install_requires=[
         'noise',
         'Pillow',
@@ -63,7 +63,13 @@ setup(
         'test': [],
     },
     package_data={
-        'urizen': ['data/*.json', 'data/*.png']
+        'urizen': [
+            'data/tilesets/*/*.json',
+            'data/tilesets/*/*.png',
+            'data/tilesets/*/*.tsx',
+            'data/themes/gui_theme.json',
+            'data/themes/images/*.png'
+        ]
     },
     include_package_data=True,
     entry_points={

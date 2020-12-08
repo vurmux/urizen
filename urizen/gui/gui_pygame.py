@@ -99,7 +99,7 @@ class GeneratorsState:
 class UrizenGuiApp:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption('Urizen 0.2.0')
+        pygame.display.set_caption('Urizen 0.2.4')
         self.opt = GUIOptions()
         self.gen_state = GeneratorsState()
         if self.opt.fullscreen:
@@ -117,7 +117,7 @@ class UrizenGuiApp:
 
         self.ui_manager = UIManager(
             self.opt.resolution,
-            'urizen/data/themes/gui_theme.json'
+            PackageResource('urizen.data.themes', 'gui_theme.json')
         )
         self.ui_manager.preload_fonts([
             {'name': 'fira_code', 'point_size': 10, 'style': 'bold'},
