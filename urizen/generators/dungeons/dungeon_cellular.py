@@ -6,7 +6,7 @@ from urizen.core.map import Map
 from urizen.core.entity_collection import C
 
 
-def dungeon_cellular_simple(w, h, start_floor_chance=0.55, smooth_level=3):
+def dungeon_cellular_simple(w=30, h=30, start_floor_chance=0.55, smooth_level=3):
     """
     Construct the dungeon map using simple cellular automata.
 

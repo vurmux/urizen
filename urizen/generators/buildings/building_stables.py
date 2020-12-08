@@ -46,9 +46,9 @@ def building_stables(w=16, h=16):
     storage_start_w = w - storage_size_w
 
     # Meld stables, storage, add dog.
-    main_stables = room_horse_stables(stables_size_w, stables_size_h, horse_box_size_w, horse_box_size_h)
+    main_stables = _room_horse_stables(stables_size_w, stables_size_h, horse_box_size_w, horse_box_size_h)
     M.meld(main_stables, 0, 0)
-    main_storage = room_storage(storage_size_w,storage_size_h)
+    main_storage = _room_storage(storage_size_w,storage_size_h)
     M.meld(main_storage, storage_start_w, 0)
     M[w-(w-stables_size_w)//2, storage_size_h].put(T.well())
     dog_place_x = random.randint(stables_size_w, w-1)
@@ -59,7 +59,7 @@ def building_stables(w=16, h=16):
 
     return M
 
-def room_horse_stables(w,h, horse_box_size_w, horse_box_size_h):
+def _room_horse_stables(w,h, horse_box_size_w, horse_box_size_h):
     """
     Construct big stable with horse boxes.
 
@@ -71,9 +71,9 @@ def room_horse_stables(w,h, horse_box_size_w, horse_box_size_h):
     # Place left and right rows of horse boxes.
     for y in range(number_of_horse_box):
         cell_y = 1 + (y*3)
-        left_stable = room_horse_box(horse_box_size_w, horse_box_size_h)
+        left_stable = _room_horse_box(horse_box_size_w, horse_box_size_h)
         M.meld(left_stable, 1, cell_y)
-        right_stable = room_horse_box(horse_box_size_w, horse_box_size_h, orientation='right')
+        right_stable = _room_horse_box(horse_box_size_w, horse_box_size_h, orientation='right')
         M.meld(right_stable, horse_box_size_w+2, cell_y)
 
         # Place fence after every horse box, except the last.
@@ -86,7 +86,7 @@ def room_horse_stables(w,h, horse_box_size_w, horse_box_size_h):
     M[w//2, h-1] = C.door_open_empty()
     return M
 
-def room_horse_box(w,h,orientation='left'):
+def _room_horse_box(w,h,orientation='left'):
     """
     Construct small horse box.
     """
@@ -132,7 +132,7 @@ def room_horse_box(w,h,orientation='left'):
 
     return M
 
-def room_storage(w, h):
+def _room_storage(w, h):
     """
     Construct small storage with horse food and some stuff for stableman.
     """

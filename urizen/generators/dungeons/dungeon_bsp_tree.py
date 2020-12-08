@@ -6,7 +6,7 @@ from urizen.core.map import Map
 from urizen.core.entity_collection import C
 
 
-def dungeon_bsp_tree(w, h, optimal_block_size=10):
+def dungeon_bsp_tree(w=30, h=30, optimal_block_size=10):
     """
     Construct the dungeon map using binary space partitioning (BSP) algorithm.
 

@@ -7,7 +7,7 @@ from urizen.core.entity_collection import C, T, A
 from urizen.generators.rooms.room_default import room_default
 
 
-def building_bank(w, h, direction='down'):
+def building_bank(w=21, h=21, direction='down'):
     """
     Construct bank with big vault, employee office, rich part and poor part.
 
@@ -38,13 +38,13 @@ def building_bank(w, h, direction='down'):
     vault_h = office_h if h % 2 == 1 else office_h + 1
 
     # Meld rooms and vault.
-    M.meld(room_vault(w, vault_h), 0, 0)
-    M.meld(room_big_office(w, office_h), 0, vault_h - 1)
-    M.meld(room_private(6, 7), 0, vault_h+office_h-2)
-    M.meld(room_private(6, 7), 5, vault_h+office_h-2)
-    M.meld(room_rich_hall(11, 5), 0, vault_h+office_h+4)
+    M.meld(_room_vault(w, vault_h), 0, 0)
+    M.meld(_room_big_office(w, office_h), 0, vault_h - 1)
+    M.meld(_room_private(6, 7), 0, vault_h+office_h-2)
+    M.meld(_room_private(6, 7), 5, vault_h+office_h-2)
+    M.meld(_room_rich_hall(11, 5), 0, vault_h+office_h+4)
     building_poor_w = w - 10
-    M.meld(room_poor_part(building_poor_w, 11), 10, vault_h + office_h - 2)
+    M.meld(_room_poor_part(building_poor_w, 11), 10, vault_h + office_h - 2)
 
     if direction == 'up':
         M.vmirror()
@@ -56,7 +56,7 @@ def building_bank(w, h, direction='down'):
 
     return M
 
-def room_vault(w, h):
+def _room_vault(w, h):
     """
     Construct vault with treasures.
     """
@@ -89,7 +89,7 @@ def room_vault(w, h):
 
     return M
 
-def room_big_office(w, h):
+def _room_big_office(w, h):
     """
     Construct big office only for employees.
     """
@@ -131,7 +131,7 @@ def room_big_office(w, h):
 
     return M
 
-def room_private(w, h, orientation='left'):
+def _room_private(w, h, orientation='left'):
     """
     Construct private room.
     """
@@ -155,7 +155,7 @@ def room_private(w, h, orientation='left'):
     
     return M
 
-def room_rich_hall(w, h):
+def _room_rich_hall(w, h):
     """
     Construct luxury hall.
     """
@@ -174,7 +174,7 @@ def room_rich_hall(w, h):
     M[w//2, h-1] = C.door_closed_wooden()
     return M
 
-def room_poor_part(w, h):
+def _room_poor_part(w, h):
     """
     Construct poor part of the bank.
 
@@ -201,15 +201,15 @@ def room_poor_part(w, h):
         # All small offices has an equal width and fill all width of the room.
         for cell_index in range(num_of_small_office):
             cell_x = cell_index * 4
-            M_cell = room_small_office(w=small_room_w, h=5)
+            M_cell = _room_small_office(w=small_room_w, h=5)
             M.meld(M_cell, cell_x, 0)
     elif shift_w == 0:
         # The last small office is wider and there is the corridor to the main office in the end of the room.
         for cell_index in range(num_of_small_office - 1):
             cell_x = cell_index * 4
-            M_cell = room_small_office(w=5, h=5)
+            M_cell = _room_small_office(w=5, h=5)
             M.meld(M_cell, cell_x, 0)
-        M_room = room_small_office(w=small_room_w, h=5)
+        M_room = _room_small_office(w=small_room_w, h=5)
         M.meld(M_room, (num_of_small_office-2)*4, 0)
         M[w-2, 0] = C.floor_plank()
         M[w-2, 4] = C.door_closed()
@@ -217,9 +217,9 @@ def room_poor_part(w, h):
         # The last small office is wider and small offices fill all width of the room.
         for cell_index in range(num_of_small_office - 1):
             cell_x = cell_index * 4
-            M_cell = room_small_office(w=5, h=5)
+            M_cell = _room_small_office(w=5, h=5)
             M.meld(M_cell, cell_x, 0)
-        M_room = room_small_office(w=small_room_w, h=5)
+        M_room = _room_small_office(w=small_room_w, h=5)
         M.meld(M_room, (num_of_small_office-1)*4, 0)
 
     # Place two longtables in right and left part of hall and some chairs.
@@ -237,7 +237,7 @@ def room_poor_part(w, h):
 
     return M
 
-def room_small_office(w, h):
+def _room_small_office(w, h):
     """
     Construct small office for employees in poor part.
     """

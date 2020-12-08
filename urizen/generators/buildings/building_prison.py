@@ -6,7 +6,7 @@ from urizen.core.entity_collection import C, T
 from urizen.generators.rooms.room_prison_cell import room_prison_cell
 
 
-def building_prison(w, h):
+def building_prison(w=17, h=17):
     """
     Construct a prison interior.
 

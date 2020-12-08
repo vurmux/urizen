@@ -11,7 +11,7 @@ EAST = 'E'
 WEST = 'W'
 
 
-def dungeon_drunkard(w, h, length=None, turn_chance=0.4):
+def dungeon_drunkard(w=25, h=25, length=None, turn_chance=0.4):
     M = Map(w, h, fill_cell=C.wall_dungeon_smooth)
     if not length:
         length = int(w*h/2)

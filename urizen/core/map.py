@@ -2,6 +2,7 @@
 
 import random
 from urizen.core.cell import Cell
+from urizen.core.entity_collection import C
 
 
 class Map(object):
@@ -91,25 +92,25 @@ class Map(object):
 
     def up_to(self, x, y):
         if y <= 0:
-            return None
+            return C.unknown()
         else:
             return self.cells[y-1][x]
 
     def down_to(self, x, y):
         if y >= self.h - 1:
-            return None
+            return C.unknown()
         else:
             return self.cells[y+1][x]
 
     def left_to(self, x, y):
         if x <= 0:
-            return None
+            return C.unknown()
         else:
             return self.cells[y][x-1]
 
     def right_to(self, x, y):
         if x >= self.w - 1:
-            return None
+            return C.unknown()
         else:
             return self.cells[y][x+1]
 

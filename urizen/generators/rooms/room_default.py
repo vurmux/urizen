@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 from urizen.core.map import Map
+from urizen.core.entity_collection import C
 
 
-def room_default(w, h, wall_type, floor_type):
+def room_default(w=10, h=10, wall_type=C.wall_dungeon_rough, floor_type=C.floor_flagged):
     """
     Create an empty room with given wall type, floor type.
 

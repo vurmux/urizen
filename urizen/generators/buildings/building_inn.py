@@ -7,7 +7,7 @@ from urizen.core.entity_collection import C, T, A
 from urizen.generators.rooms.room_default import room_default
 
 
-def building_inn(w=22, h=22, wall_material=None, floor_material=None):
+def building_inn(w=22, h=22, wall_material=None, floor_material=None, has_exterior=True):
     """
     Construct inn with living room for poor, living room for rich, kitchen/storage, big saloon and outdoor.
 
@@ -74,13 +74,14 @@ def building_inn(w=22, h=22, wall_material=None, floor_material=None):
     M.meld(vending, 9, 6)
     bar = _interior_bar(w-kitchen_w-1, main_room_h-5, floor_material,)
     M.meld(bar, kitchen_w, 4)
-    outdoor = _room_outdoor(w-9, h - main_room_h)
-    M.meld(outdoor, 9, main_room_h)
+    if has_exterior:
+        outdoor = _room_outdoor(w-9, h - main_room_h)
+        M.meld(outdoor, 9, main_room_h)
 
     return M
 
 
-def building_roadhouse(w=15, h=14, wall_material=None, floor_material=None):
+def building_roadhouse(w=15, h=15, wall_material=None, floor_material=None):
     """
     Construct roadhouse with living room for poor, kitchen/storage and saloon.
 

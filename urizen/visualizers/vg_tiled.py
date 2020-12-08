@@ -40,7 +40,7 @@ def select_tile_linear(M, xpos, ypos, metatile, metatile_type):
         try:
             tile = random.choice(metatile.get_tiles(orientation=position))
         except ValueError:
-            tile = C.unknown().metatile.get_tiles()
+            tile = C.unknown().metatile.get_tiles()[0]
     elif metatile_type == 'thing':
         up = int(
             M.up_to(xpos, ypos) != None and
@@ -66,7 +66,7 @@ def select_tile_linear(M, xpos, ypos, metatile, metatile_type):
         try:
             tile = random.choice(metatile.get_tiles(orientation=position))
         except ValueError:
-            tile = C.unknown().metatile.get_tiles()
+            tile = C.unknown().metatile.get_tiles()[0]
     elif metatile_type == 'actor':
         up = int(
             M.up_to(xpos, ypos) != None and
@@ -92,7 +92,7 @@ def select_tile_linear(M, xpos, ypos, metatile, metatile_type):
         try:
             tile = random.choice(metatile.get_tiles(orientation=position))
         except ValueError:
-            tile = C.unknown().metatile.get_tiles()
+            tile = C.unknown().metatile.get_tiles()[0]
     return tile
 
 

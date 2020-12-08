@@ -6,7 +6,7 @@ from urizen.core.map import Map
 from urizen.core.entity_collection import C
 
 
-def world_perlin_noise(w, h, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
+def world_perlin_noise(w=35, h=35, scale=10.0, octaves=6, persistence=0.5, lacunarity=2.0):
     M = Map(w, h)
     min_value = None
     max_value = None

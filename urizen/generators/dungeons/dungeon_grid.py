@@ -5,7 +5,7 @@ from urizen.core.map import Map
 from urizen.core.entity_collection import C
 
 
-def dungeon_grid_simple(w, h, room_size=4, delete_chance=0.33):
+def dungeon_grid_simple(w=20, h=20, room_size=4, delete_chance=0.33):
     """Dungeon map generator based on square room grid."""
 
     M = Map(w, h, fill_cell=C.floor_flagged)

@@ -1,0 +1,95 @@
+{
+    "defaults":
+    {
+        "colours":
+        {
+            "normal_bg": "#1b1812",
+            "hovered_bg": "#807256",
+            "disabled_bg": "#100a08",
+            "selected_bg": "#aa6c37",
+            "active_bg":"#aa6c37",
+            "dark_bg": "#1b1812",
+            "disabled_dark_bg": "#000000",
+            "normal_text": "#decdac",
+            "hovered_text": "#1b1812",
+            "selected_text": "#decdac",
+            "disabled_text": "#505050",
+            "text_shadow": "#303030",
+            "normal_border": "#decdac",
+            "hovered_border": "#decdac",
+            "disabled_border": "#decdac",
+            "selected_border": "#decdac",
+            "filled_bar": "#68d744",
+            "unfilled_bar": "#505050"
+        }
+    },
+
+    "#gen_explore_image":
+    {
+        "images":
+        {
+            "normal_image": {
+                "package": "urizen.data.themes.images",
+                "resource": "gen_explore.png",
+                "sub_surface_rect": "0,0,36,36"
+            }
+        }
+    },
+
+    "#not_implemented_image":
+    {
+        "images":
+        {
+            "normal_image": {
+                "package": "urizen.data.themes.images",
+                "resource": "not_implemented.png",
+                "sub_surface_rect": "0,0,36,36"
+            }
+        }
+    },
+
+    "#btn_gen_explore":
+    {
+        "prototype": "#gen_explore_image",
+
+        "misc":
+        {
+            "shape": "rectangle",
+            "border_width": "1"
+        }
+    },
+
+    "#btn_gen_search":
+    {
+        "prototype": "#not_implemented_image",
+
+        "misc":
+        {
+            "shape": "rectangle",
+            "border_width": "1"
+        }
+    },
+
+    "#btn_tiles_explore":
+    {
+        "prototype": "#not_implemented_image",
+
+        "misc":
+        {
+            "shape": "rectangle",
+            "border_width": "1"
+        }
+    },
+
+    "#btn_tiles_search":
+    {
+        "prototype": "#not_implemented_image",
+
+        "misc":
+        {
+            "shape": "rectangle",
+            "border_width": "1"
+        }
+    }
+
+}
