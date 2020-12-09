@@ -38,7 +38,7 @@ The result image will be automatically opened with a default image viewer.
 
 setup(
     name='urizen',
-    version='0.2.4',
+    version='0.2.5',
     description='Roguelike world generation library',
     long_description=LONG_DESCRIPTION,
     url='https://github.com/vurmux/urizen',
@@ -53,7 +53,6 @@ setup(
     keywords='',
     packages=find_packages(exclude=['doc', 'res', 'build', 'dist']),
     install_requires=[
-        'noise',
         'Pillow',
         'pygame>=2.0.0',
         'pygame_gui'

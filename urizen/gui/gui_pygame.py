@@ -47,9 +47,9 @@ def construct_bounded_map_image(M, w, h):
 
 class GUIOptions:
     def __init__(self):
-        self.W = 1920
-        self.H = 1080
-        self.resolution = (1920, 1080)
+        self.W = 1024
+        self.H = 768
+        self.resolution = (1024, 768)
         self.fullscreen = False
 
 
@@ -99,7 +99,7 @@ class GeneratorsState:
 class UrizenGuiApp:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption('Urizen 0.2.4')
+        pygame.display.set_caption('Urizen 0.2.5')
         self.opt = GUIOptions()
         self.gen_state = GeneratorsState()
         if self.opt.fullscreen:
