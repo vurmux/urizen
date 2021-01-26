@@ -27,3 +27,6 @@ from urizen.generators.buildings.building_house_medieval import building_house_t
 
 import urizen.generators.buildings.building_mansion_symmetric
 from urizen.generators.buildings.building_mansion_symmetric import building_mansion_symmetric
+
+import urizen.generators.buildings.building_kitchengarden
+from urizen.generators.buildings.building_kitchengarden import building_kitchengarden
