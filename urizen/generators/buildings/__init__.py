@@ -24,3 +24,6 @@ from urizen.generators.buildings.building_inn import building_inn, building_road
 
 import urizen.generators.buildings.building_house_medieval
 from urizen.generators.buildings.building_house_medieval import building_house_tworoom
+
+import urizen.generators.buildings.building_mansion_symmetric
+from urizen.generators.buildings.building_mansion_symmetric import building_mansion_symmetric
